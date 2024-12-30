@@ -74,7 +74,7 @@ Para pessoas que têm o cérebro mais liso do que o de um coala, que acham que u
 
 ### 17 - 🕶️ "Anônimato"
 
-### 18 - 📱 Canais YT, Telegram e Fóruns 
+### 18 - 📱 Canais Telegram e Fóruns 
 
 ### 19 - 🛡️ Pentesting (Testes de Penetração)
 
