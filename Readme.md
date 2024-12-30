@@ -12,7 +12,7 @@
 
 ## 🌐 Estrutura do Roadmap
 
-1. [🕵️‍♂️ História da Cultura Hacker](#1---história-da-cultura-hacker)  
+1. [🕵️‍♂️ História da Cultura purista](#1---história-da-cultura-hacker)  
 2. [🎬 A Cultura Pop-Hacker e o Ensino Marketeiro (o famoso "pega-trouxa")](#2---a-cultura-pop-hacker-e-o-ensino-marketeiro-o-famoso-pega-trouxa)  
 3. [🦸‍♂️ O Último Puro-Sangue](#3---o-último-puro-sangue)  
 4. [🤓 Curiosidades](#4---curiosidades)  
@@ -40,7 +40,7 @@
 ## 🧩 Para que tipo de pessoas esse roadmap não é?
 Para pessoas que têm o cérebro mais liso do que o de um coala, que acham que usar Kali Linux ou Termux, rodando ferramentas automatizadas sem nem saber o que está acontecendo, sem nem saber ler um código, e ainda fazem edições para postar no TikTok usando SQLMAP achando que isso é ser hacker, ou para pessoas que menosprezam iniciantes para se passarem por superiores e dar a impressão de que entendem de algo, sendo que não entendem nada, e ainda confundem hacking com 171, bandidos da internet que se acham descolados fazendo contas laranjas com documentos de idosos, achando que são BlackHat: "Vocês não são personagens de anime 😂."
 
-### 1 - 🕵️‍♂️ História da Cultura Hacker
+### 1 - 🕵️‍♂️ História da Cultura purista
 
 ### 2 - 🎬 A Cultura Pop-Hacker e o Ensino Marketeiro (o famoso "pega-trouxa")
 
