@@ -6,33 +6,34 @@
   <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHhxbjRlM3I2Nm8wdTkyanQ1Nm42aDR6cnRxejF1YzhyNHA4cW42ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GuRuLWOGo0CI/giphy.webp" width="220" alt="GIF" />
 </div> 
 
-**Nota:** Este roadmap não foi criado para encher sua cabeça de ilusões que inundam seu cérebro de dopamina, prendendo você aqui para ganhar estrelinhas, e muito menos para fazê-lo pensar que é um hacker de filmezinho. Aqui, vou trazer a realidade e mostrar o que você realmente precisa aprender para se tornar, bem entre aspas, um """hacker""".    
+**Nota:** *Este roadmap não foi criado para encher sua cabeça de ilusões que inundam seu cérebro de dopamina, prendendo você aqui para ganhar estrelinhas, e muito menos para fazê-lo pensar que é um hacker de filme. Aqui, vou trazer a realidade e mostrar o que você realmente precisa aprender para se tornar, bem entre aspas, um """hacker""", quebrando esse misticismo em torno do hacking.*
 
 ---
 
 ## 🌐 Estrutura do Roadmap
 
-#### **1. 🕵️‍♂️ História da Cultura Hacker**  
-#### **2. 🎬 A Cultura Pop-Hacker e o Ensino Marketeiro (o famoso "pega-trouxa")**  
-#### **3. 🦸‍♂️ O Último Puro-Sangue**  
-#### **4. 🤓 Curiosidades**  
-#### **5. ⚔️ Ataques que Marcaram a História**  
-#### **6. 👨‍💻 Hackers que Fizeram História**  
-#### **7. 🖥️ A Filosofia do Software Livre**  
-#### **8. 🌍 Redes de Computadores**  
-#### **9. 💻 Programação** 
-#### **10. 🖥️ Sistemas Operacionais**  
-#### **11. 🔧 Low-Level - "Bit a Bit"**  
-#### **12. ➗ Matemática**  
-#### **13. 🔒 Criptografia**  
-#### **14. 🌐 Web**  
-#### **15. 🛠️ Engenharia Reversa**  
-#### **16. 🤝 Contribuição e Compartilhamento do Conhecimento**  
-#### **17. 🕶️ "Anônimato"**  
-#### **18. 📱 Canais YT, Telegram e Fóruns**  
-#### **19. 🛡️ Pentesting (Testes de Penetração)**
-#### **20. 🌍 Hacktivismo** 
-#### **21. 🧩 Malware**
+1. [🕵️‍♂️ História da Cultura Hacker](#1---história-da-cultura-hacker)  
+2. [🎬 A Cultura Pop-Hacker e o Ensino Marketeiro (o famoso "pega-trouxa")](#2---a-cultura-pop-hacker-e-o-ensino-marketeiro-o-famoso-pega-trouxa)  
+3. [🦸‍♂️ O Último Puro-Sangue](#3---o-último-puro-sangue)  
+4. [🤓 Curiosidades](#4---curiosidades)  
+5. [⚔️ Ataques que Marcaram a História](#5---ataques-que-marcaram-a-história)  
+6. [👨‍💻 Hackers que Fizeram História](#6---hackers-que-fizeram-história)  
+7. [🖥️ A Filosofia do Software Livre](#7---a-filosofia-do-software-livre)  
+8. [🌍 Redes de Computadores](#8---redes-de-computadores)  
+9. [💻 Programação](#9---programação)  
+10. [🖥️ Sistemas Operacionais](#10---sistemas-operacionais)  
+11. [🔧 Low-Level - "Bit a Bit"](#11---low-level---bit-a-bit)  
+12. [➗ Matemática](#12---matemática)  
+13. [🔒 Criptografia](#13---criptografia)  
+14. [🌐 Web](#14---web)  
+15. [🛠️ Engenharia Reversa](#15---engenharia-reversa)  
+16. [🤝 Contribuição e Compartilhamento do Conhecimento](#16---contribuição-e-compartilhamento-do-conhecimento)  
+17. [🕶️ "Anônimato"](##17---anonimato)  
+18. [📱 Canais Telegram e Fóruns](#18---canais-yt-telegram-e-fóruns)  
+19. [🛡️ Pentesting (Testes de Penetração)](#19---pentesting-testes-de-penetração)  
+20. [🌍 Hacktivismo](#20---hacktivismo)  
+21. [🧩 Malware](#21---malware)
+22. [🎓 Certificações para o mercado de trabalho](#21---Certificações-para-o-mercado-de-trabalho)
 
 ---
 
@@ -80,3 +81,5 @@ Para pessoas que têm o cérebro mais liso do que o de um coala, que acham que u
 ### 20 - 🌍 Hacktivismo 
 
 ### 21 - 🧩 Malware
+
+### 22 - 🎓 Certificações para o mercado de trabalho
