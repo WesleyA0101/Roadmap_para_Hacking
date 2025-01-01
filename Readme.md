@@ -312,6 +312,7 @@ Essa postura consistente e a defesa intransigente de seus princípios, mesmo qua
 
 🔗 [**Link**](https://www.cisa.gov/news-events/news/attack-colonial-pipeline-what-weve-learned-what-weve-done-over-past-two-years)
 
+---
 
 ### 👨‍💻 **Pessoas que Fizeram História em Invasões** 👨‍💻
 
@@ -734,11 +735,14 @@ ou controle do host.
 - 📖 [**Xv6: A Simple, Unix-Like Teaching Operating System**](https://pdos.csail.mit.edu/6.828/2018/xv6.html)  
   *Um sistema operacional simples, desenvolvido para ensino de conceitos de sistemas operacionais.*  
   **Como estudar:** Modifique o código-fonte do Xv6 para implementar novos recursos e entender o funcionamento interno do sistema.
+
 ---
 
 ### 10 - 🔧 Low-Level - "Bit a Bit"
 
 Para aprender sobre, acesse meu roadmap para low-level: [**Bitwise Journey: Rumo à Programação de Baixo Nível**](https://github.com/WesleyA0101/Roadmap__Bitwise-Journey-Rumo-Programacao-de-Baixo-Nivel)
+
+---
 
 ### 11 - ➗ Matemática
 
