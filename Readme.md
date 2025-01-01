@@ -39,7 +39,7 @@
 ---
 
 ## 🧩 Para que tipo de pessoas esse roadmap não é?
-Para quem acha que para entrar na área, tem que seguir uma "receita de bolo", para pessoas que têm o cérebro mais liso do que o de um coala, que acham que usar Kali Linux ou Termux, rodando ferramentas automatizadas sem nem saber o que está acontecendo, sem nem saber ler um código, e ainda fazem edições para postar no TikTok usando SQLMAP achando que isso é ser hacker, ou para pessoas que menosprezam iniciantes para se passarem por superiores e dar a impressão de que entendem de algo, sendo que não entendem nada, e ainda confundem hacking com 171, bandidos da internet que se acham descolados fazendo contas laranjas com documentos de idosos, achando que são BlackHat: "Vocês não são personagens de anime 😂."
+Para quem acha que para entrar na área, tem que seguir uma "receita de bolo", para pessoas que têm o cérebro mais liso do que o de um coala, que acham que usar Kali Linux ou Termux, rodando ferramentas automatizadas sem nem saber o que está acontecendo, sem nem saber ler um código, e ainda fazem edits para postar no TikTok usando SQLMAP achando que isso é ser hacker, ou para pessoas que menosprezam iniciantes para se passarem por superiores e dar a impressão de que entendem de algo, sendo que não entendem nada, e ainda confundem hacking com 171, bandidos da internet que se acham descolados fazendo contas laranjas com documentos de idosos, achando que são BlackHat: "Vocês não são personagens de anime 😂."
 
 ### 1 - 🕵️‍♂️ História da Cultura purista
 
