@@ -24,7 +24,7 @@
 6. [🖥️ A Filosofia do Software Livre](#6---a-filosofia-do-software-livre)  
 7. [🌍 Redes de Computadores](#7---redes-de-computadores)  
 8. [💻 Programação](#8---programação)  
-9. [🖥️ Sistemas Operacionais](#9---sistemas-operacionais)  
+9. [🐧 Sistemas Operacionais](#9---sistemas-operacionais)  
 10. [🔧 Low-Level - "Bit a Bit"](#10---low-level---bit-a-bit)  
 11. [➗ Matemática](#11---matemática)  
 12. [🔒 Criptografia](#12---criptografia)  
@@ -32,7 +32,7 @@
 14. [🛠️ Engenharia Reversa](#14---engenharia-reversa)  
 15. [🤝 Contribuição e Compartilhamento do Conhecimento](#15---contribuição-e-compartilhamento-do-conhecimento)  
 16. [🕶️ "Anônimato"](##16---anonimato)  
-17. [📱 Distros Linux que pseudo-profissionais recomendam ou usam no hacking](#17---Distros-Linux-que-pseudo-profissionais-recomendam-ou-usam-no-hacking)  
+17. [🐧 Distros Linux 'Hackers de Boutique' – Porque Só dar apt update não te faz um hacker](#17---Distros-Linux-'Hackers-de-Boutique'-–Porque-Só-dar-apt-update-não-te-faz-um-hacker)  
 18. [🛡️ Pentesting (Testes de Penetração)](#18---pentesting-testes-de-penetração)  
 19. [🌍 Hacktivismo](#19---hacktivismo)  
 20. [🧩 Malware](#20---malware)
@@ -987,7 +987,7 @@ O valor hash gerado para a senha com salt será diferente de outro usuário com 
 
 ---
 
-### 17 - 📱 Distros Linux que pseudo-profissionais recomendam ou usam no hacking
+### 17 - 🐧  Distros Linux 'Hackers de Boutique' – Porque Só dar apt update não te faz um hacker
 
 ---
 
