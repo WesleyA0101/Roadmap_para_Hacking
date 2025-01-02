@@ -953,6 +953,8 @@ O valor hash gerado para a senha com salt será diferente de outro usuário com 
 - [Khan Academy - Cryptography](https://www.khanacademy.org/computing/computer-science/cryptography) - Um curso gratuito de criptografia, com conceitos básicos e aplicações práticas.
 - [Introdução à Criptografia - Cornell University](https://www.cs.cornell.edu/courses/cs5430/2015sp/notes/intro%20to%20cryptography.pdf) - Material de leitura sobre os fundamentos da criptografia, de um curso da Universidade de Cornell.
 
+- [Entendendo Conceitos Básicos de CRIPTOGRAFIA | Parte 1/2 (Fabio Akita)](https://www.youtube.com/watch?v=CcU5Kc_FN_4&t=179s) - Então no episódio de hoje vamos começar com alguns conceitos muito básicos sobre encriptação simétrica, alguns algoritmos famosos como DES e AES, entender como acontecem alguns tipos comuns de ataques como dicionário ou extensão de comprimento, e entender o que são de verdades os hashes que programadores usam todos os dias sem saber..
+
 ### 📚 Livros Recomendados
 
 - **"Applied Cryptography"** de Bruce Schneier - Um clássico que cobre muitos aspectos da criptografia, com exemplos práticos.
