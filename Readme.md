@@ -32,13 +32,28 @@
 14. [🛠️ Engenharia Reversa](#14---engenharia-reversa)  
 15. [🤝 Contribuição e Compartilhamento do Conhecimento](#15---contribuição-e-compartilhamento-do-conhecimento)  
 16. [🕶️ "Anônimato"](##16---anonimato)  
-17. [📱 Canais Telegram e Fóruns](#17---canais-yt-telegram-e-fóruns)  
+17. [📱 Distros Linux que pseudo-profissionais recomendam ou usam no hacking](#17---Distros-Linux-que-pseudo-profissionais-recomendam-ou-usam-no-hacking)  
 18. [🛡️ Pentesting (Testes de Penetração)](#18---pentesting-testes-de-penetração)  
 19. [🌍 Hacktivismo](#19---hacktivismo)  
 20. [🧩 Malware](#20---malware)
 21. [🎓 Certificações para o mercado de trabalho](#21---Certificações-para-o-mercado-de-trabalho)
 
 ---
+
+# ⚠️ **Atenção:**
+
+🚨 **Você não deve pular absolutamente nada desse roadmap!** 🚨
+
+Isso é para garantir que você não perca o contexto de nenhum conteúdo e não se perca ao longo do caminho. **Eu não sou responsável pela sua preguiça em ler e depois ficar perdido nos temas ou interpretá-los errado!** 🧐
+
+⚡ **Aqui você não vai encontrar receita de bolo para se tornar um "HACKER" da noite para o dia**! ⚡
+
+Esqueça os vídeos no YouTube de "Como se tornar um hacker em 5 minutos", criados por quem só quer ganhar like e fama, sem entender absolutamente nada da área. Isso é para quem é **script kiddie** que não se compromete com o aprendizado real! 🚫
+
+Por aqui, o foco é entender de verdade os conceitos e fundamentos, e não se deixar enganar por promessas vazias de atalhos! Vamos focar no que realmente importa. 👨‍💻👩‍💻
+
+👉 **Leia com atenção, se concentre e aproveite cada passo desse processo!**
+
 
 ## 🧩 Para que tipo de pessoas esse roadmap não é?
 Para quem acha que para entrar na área, tem que seguir uma "receita de bolo", para pessoas que têm o cérebro mais liso do que o de um coala, que acham que usar Kali Linux ou Termux, rodando ferramentas automatizadas sem nem saber o que está acontecendo, sem nem saber ler um código, e ainda fazem edits para postar no TikTok usando SQLMAP achando que isso é ser hacker, ou para pessoas que menosprezam iniciantes para se passarem por superiores e dar a impressão de que entendem de algo, sendo que não entendem nada, e ainda confundem hacking com 171, bandidos da internet que se acham descolados fazendo contas laranjas com documentos de idosos, achando que são BlackHat: "Vocês não são personagens de anime 😂."
@@ -746,9 +761,211 @@ Para aprender sobre, acesse meu roadmap para low-level: [**Bitwise Journey: Rumo
 
 ### 11 - ➗ Matemática
 
+Muitos subestimam a importância da matemática no hacking e na tecnologia em geral, dizendo que não é necessário aprender matemática para aprender programação. Esses são os queridos "profissionais" de meia-tigela, que sabem que a maioria dos iniciantes são preguiçosos e querem atalhos para, no fim do dia, só dar um git clone em um repositório do GitHub e rodar em um site para fazer brute force em um painel de login de um site "padoca". Mas, quando você for fazer algum tipo de faculdade, caso queira, como ciência da computação, é aí que você senta no patê. Chegando lá, você terá que lidar mais com matemática do que com programação. Então, largue a preguiça e o seu trauma pedagógico e aprenda matemática para exercitar seu raciocínio lógico e entender de forma robusta como as coisas funcionam.
+
+### Para que aprender matemática?
+
+#### 1. Criptografia: O Coração da Segurança Digital 🔒
+
+#### Descrição
+Criptografia é a ciência de proteger informações. Ela usa conceitos avançados de álgebra, teoria dos números e estatística para criar algoritmos que protegem dados de acessos não autorizados.
+
+- **Exemplo**: O RSA, um dos algoritmos mais usados, é baseado na dificuldade de fatorar números grandes. Sem matemática, isso seria impossível.
+
+#### Aplicação Prática
+- Quebra de senhas e decodificação de mensagens.
+- Desenvolvimento de sistemas de criptografia mais fortes.
+
+#### 2. Análise de Redes e Algoritmos 🌐
+
+#### Descrição
+O hacking muitas vezes envolve a análise de redes de computadores, que pode incluir modelagem matemática para entender como os dados trafegam.
+
+- **Exemplo**: A matemática dos grafos (teoria dos grafos) é usada para mapear redes e entender conexões entre dispositivos.
+
+#### Aplicação Prática
+- Identificação de vulnerabilidades em redes.
+- Desenvolvimento de exploits que manipulam protocolos e fluxos de dados.
+
+
+#### 3. Esteganografia e Ocultação de Dados 🕵️‍♂️
+
+#### Descrição
+A esteganografia envolve esconder informações dentro de outros arquivos. Isso frequentemente requer matemática para manipular dados em arquivos binários, imagens ou áudios.
+
+- **Exemplo**: Técnicas como a manipulação de pixels em uma imagem utilizam conceitos de álgebra linear.
+
+#### Aplicação Prática
+- Transferência segura de informações sem levantar suspeitas.
+- Descoberta de mensagens ocultas em arquivos.
+
+#### 4. Inteligência Artificial e Machine Learning 🤖
+
+#### Descrição
+A matemática é o fundamento dos algoritmos de aprendizado de máquina, usados em ferramentas avançadas de análise de dados e hacking.
+
+- **Exemplo**: Modelos preditivos que usam estatística para identificar padrões em grandes volumes de dados.
+
+#### Aplicação Prática
+- Reconhecimento de anomalias para identificar possíveis ataques.
+- Automação de processos complexos de invasão.
+
+#### 5. Engenharia Reversa e Desenvolvimento de Exploits 🛠️
+
+#### Descrição
+A matemática é usada para entender e desmontar sistemas binários, analisando como os dados são manipulados dentro de um programa.
+
+- **Exemplo**: Uso de aritmética modular para explorar vulnerabilidades de buffer overflow.
+
+#### Aplicação Prática
+- Criação de ferramentas para exploração de falhas de software.
+- Otimização de técnicas de fuzzing.
+
+
+#### Por Onde Começar a Estudar Matemática? 📚
+
+#### Áreas Essenciais
+- Álgebra linear.
+- Teoria dos números.
+- Estatística e probabilidade.
+- Cálculo.
+- Teoria dos grafos.
+
+#### Recursos Recomendados
+- **Khan Academy**: Ótimo para fundamentos.
+- **3Blue1Brown**: Canal do YouTube para visualização intuitiva de conceitos matemáticos.
+- Livros clássicos como *"Introduction to Algorithms"* de Cormen et al.
+- **Tamanho:** 51.6 GB | **Duração:** 368h 18min | [Convite](https://t.me/+xhLtMYDaf9I4ZDM5)
+- **Tamanho:** 20.25 GB | **Duração:** 86h 12min | [Convite](https://t.me/+osKZwwerpck2NWMx)
+- **Tamanho:** 58.46 GB | **Duração:** 190h 32min | [Convite](https://t.me/+EpZRP9DK__pjM2Qx)
+- **Tamanho:** 87.42 GB | **Duração:** 104h 31min | [Convite](https://t.me/+BFhx_32465AyOGRh)
+
+
+#### Aplicação Prática
+- Resolva problemas em sites como [Project Euler](https://projecteuler.net/).
+
 ---
 
 ### 12 - 🔒 Criptografia
+
+# 🔐 O que é Criptografia?
+
+Criptografia é uma técnica de segurança essencial que protege dados transformando-os em um formato ilegível através de algoritmos matemáticos 🧮. Existem dois tipos principais de criptografia:
+
+## 🔑 Tipos de Criptografia
+
+- **Criptografia Simétrica**: Usa a mesma chave para cifrar e decifrar dados 🔄.
+- **Criptografia Assimétrica**: Usa duas chaves diferentes – uma pública e uma privada 🗝️.
+
+
+## 🔍 Por Que é Importante?
+
+A criptografia é fundamental para garantir a segurança e privacidade dos dados 💻🔒. Seus principais benefícios incluem:
+
+- **Confidencialidade**: Garante que apenas destinatários autorizados possam acessar e ler os dados 🛡️.
+- **Integridade**: Assegura que os dados não sejam alterados durante a transmissão 🛠️.
+- **Autenticidade**: Verifica a identidade de usuários e a origem das mensagens ✍️.
+- **Não Repúdio**: Previne que uma parte negue ter enviado uma mensagem 📜.
+
+
+## 🧑‍💻 Importância no Hacking
+
+Na segurança cibernética, a criptografia pode tanto proteger quanto ser um alvo de hackers ⚔️. Veja como:
+
+- **Proteção contra Hackers**: Dados criptografados são mais difíceis de serem interceptados e lidos, adicionando uma camada extra de segurança 🛡️.
+- **Quebra de Criptografia**: Hackers tentam quebrar a criptografia para acessar dados sensíveis. A força da criptografia torna essa tarefa mais desafiadora 💥.
+- **Ferramenta para Hackers Éticos**: Profissionais de segurança cibernética (hackers éticos) usam criptografia para proteger dados e identificar vulnerabilidades em sistemas 👨‍💻🔐.
+
+
+# 🔒 O que são Hash e Salt?
+
+## 💡 Hash
+
+### O que é Hash?
+
+Hash é um processo matemático que transforma dados (como senhas ou arquivos) em um valor fixo de comprimento, chamado "valor hash". Esse valor é uma sequência de caracteres que, ao ser gerada, não pode ser revertida para recuperar os dados originais 🔍.
+
+Exemplo: Se você aplicar um algoritmo hash na senha `"minhasenha123"`, o resultado será algo como `5f4dcc3b5aa765d61d8327deb882cf99` – um código único que representa a senha de forma ilegível 💻🔑.
+
+### Para que Serve o Hash?
+
+- **Armazenamento Seguro de Senhas**: Quando você cria uma conta online, a senha não é salva diretamente, mas sim seu valor hash. Isso dificulta que hackers acessem a senha original 🔐.
+- **Verificação de Integridade**: O hash é utilizado para verificar se um arquivo ou dado foi alterado. Se o hash de um arquivo original coincidir com o hash gerado depois, sabemos que ele não foi modificado 🧐.
+
+### Como Funciona o Hash?
+
+O algoritmo de hashing pega dados de qualquer tamanho e gera um valor fixo de caracteres (o hash). A menor alteração nos dados originais gera um hash completamente diferente, tornando muito difícil reverter o hash de volta para os dados originais 🔄.
+
+### Exemplo de Hash
+
+- Entrada: `"minhasenha123"`
+- Hash gerado: `5f4dcc3b5aa765d61d8327deb882cf99`
+
+Embora a entrada seja simples, o hash gerado é único e impossível de ser revertido para a senha original diretamente ⚡.
+
+
+## 🧂 Salt
+
+### O que é Salt?
+
+Salt é um valor aleatório adicionado ao processo de hashing para garantir que senhas iguais gerem hashes diferentes 🔑✨. Quando aplicamos o hash, o salt é adicionado à senha antes de gerar o valor hash.
+
+Por exemplo, se duas pessoas escolherem a mesma senha `"minhasenha123"`, o salt garante que os hashes gerados serão diferentes, porque o salt é único para cada um 🧂.
+
+### Para que Serve o Salt?
+
+- **Evitar Ataques de Tabelas Rainbow**: Tabelas rainbow são usadas por hackers para descobrir senhas rapidamente. O salt torna esse ataque ineficaz, garantindo que cada hash seja único mesmo para senhas iguais 🔒.
+- **Aumentar a Segurança**: Ao adicionar salt, até que um hacker consiga quebrar o hash, ele precisa também conhecer o salt único associado a ele. Isso dificulta ainda mais a tarefa de acessar dados sensíveis 🛡️.
+
+### Como Funciona o Salt?
+
+1. O salt é gerado aleatoriamente e é único para cada usuário ou senha 🎲.
+2. O salt é combinado com a senha antes de passar pelo algoritmo de hash 🔐.
+3. O hash final gerado é armazenado junto com o salt no banco de dados (mas o salt não precisa ser mantido em segredo) 📂.
+
+### Exemplo de Salt
+
+- Senha: `"minhasenha123"`
+- Salt gerado: `abc123xyz`
+- Senha com Salt: `"minhasenha123abc123xyz"`
+- Hash final: `2a5c29f7a2ffabcde8737f9c64b711c`
+
+O valor hash gerado para a senha com salt será diferente de outro usuário com a mesma senha, mas com um salt distinto 🔑💥.
+
+
+## Resumo
+
+- **Hash**: Processo que gera um valor único a partir de dados de entrada, como senhas, tornando-os ilegíveis.
+- **Salt**: Valor aleatório adicionado ao dado original antes do hash para garantir que hashes iguais para senhas iguais não aconteçam.
+
+### Por que isso é Importante?
+
+- **Segurança**: O uso de hash e salt juntos torna muito mais difícil para hackers acessarem senhas ou dados sensíveis 🛡️.
+- **Prevenção de Ataques**: A combinação de hash e salt ajuda a proteger os dados contra ataques avançados, tornando a vida dos hackers bem mais difícil ⚔️.
+
+
+## Materiais de Estudo:
+
+### 🌐 Cursos Online Gratuitos
+
+- [6 Cursos Online Gratuitos de Criptografia - WeLiveSecurity](https://www.welivesecurity.com/br/2019/03/19/6-cursos-online-gratuitos-de-criptografia/) - Uma lista de cursos gratuitos para aprender criptografia, desde conceitos básicos até tópicos mais avançados.
+- [Coursera - Cryptography](https://www.coursera.org/learn/crypto) - Um curso que aborda tópicos essenciais de criptografia.
+- [Khan Academy - Cryptography](https://www.khanacademy.org/computing/computer-science/cryptography) - Um curso gratuito de criptografia, com conceitos básicos e aplicações práticas.
+- [Introdução à Criptografia - Cornell University](https://www.cs.cornell.edu/courses/cs5430/2015sp/notes/intro%20to%20cryptography.pdf) - Material de leitura sobre os fundamentos da criptografia, de um curso da Universidade de Cornell.
+
+### 📚 Livros Recomendados
+
+- **"Applied Cryptography"** de Bruce Schneier - Um clássico que cobre muitos aspectos da criptografia, com exemplos práticos.
+- **"Cryptography and Network Security"** de William Stallings - Um ótimo livro para quem quer entender a criptografia no contexto da segurança de redes.
+- **"The Code Book"** de Simon Singh - Conta a história da criptografia desde a antiguidade até os dias atuais de uma forma acessível e interessante.
+
+### 🌍 Sites e Ferramentas
+
+- [Invertexto - Texto Criptografado](https://www.invertexto.com/texto-criptografado) - Ferramenta online para criptografar e descriptografar textos.
+- [TutorialsPoint - Criptografia](https://www.tutorialspoint.com/cryptography/index.htm) - Guia completo sobre criptografia, com explicações detalhadas sobre os algoritmos mais comuns.
+- [CryptoTool - Ferramenta de Criptografia](https://www.cryptool.org/en/) - Uma ferramenta popular para aprender e experimentar criptografia.
+- [CryptoTool Online](https://www.cryptool-online.org/) - Versão online da ferramenta CryptoTool para uso imediato.
+ 
 
 ---
 
@@ -768,7 +985,7 @@ Para aprender sobre, acesse meu roadmap para low-level: [**Bitwise Journey: Rumo
 
 ---
 
-### 17 - 📱 Canais Telegram e Fóruns 
+### 17 - 📱 Distros Linux que pseudo-profissionais recomendam ou usam no hacking
 
 ---
 
