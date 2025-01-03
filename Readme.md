@@ -481,31 +481,31 @@ O conhecimento de redes de computadores é essencial para hacking por várias ra
 
 A programação é uma das habilidades mais essenciais para qualquer hacker, seja ele ético ou malicioso. Entender como os sistemas são criados, manipulados e interagem uns com os outros é fundamental para explorar vulnerabilidades, modificar comportamentos de sistemas ou criar ferramentas próprias para alcançar objetivos específicos.
 
-- 1. **Compreensão Profunda dos Sistemas**  
+1. **Compreensão Profunda dos Sistemas**  
 A programação oferece uma compreensão fundamental de como os sistemas operacionais, redes e aplicativos funcionam. Isso é crucial para entender as vulnerabilidades que podem ser exploradas em uma rede ou aplicação. Um hacker que compreende o código de um programa pode identificar falhas que outros, sem esse conhecimento, não conseguiriam perceber.
 
-- 2. **Automação de Tarefas**  
+ 2. **Automação de Tarefas**  
 A maioria das tarefas de hacking envolve repetição: escanear redes, identificar vulnerabilidades, testar senhas, entre outras. A programação permite automatizar esses processos, economizando tempo e tornando o hacker mais eficiente. Ferramentas como scripts de Python, bash scripts ou exploits em C são exemplos de como a automação é usada para facilitar e agilizar os testes de segurança.
 
-- 3. **Exploits e Vulnerabilidades**  
+ 3. **Exploits e Vulnerabilidades**  
 Para explorar falhas de segurança, um hacker precisa entender como os aplicativos e sistemas podem ser manipulados. Programar em linguagens como C, Python ou Assembly permite escrever exploits específicos que aproveitam essas falhas. Isso pode incluir desde ataques simples de negação de serviço (DoS) até injeção de código em sistemas mais complexos.
 
-- 4. **Desenvolvimento de Ferramentas**  
+ 4. **Desenvolvimento de Ferramentas**  
 Ferramentas customizadas para testes de penetração, coleta de informações, exploração de vulnerabilidades ou coleta de dados são criadas através de programação. Hackers criam suas próprias ferramentas ou modificam as existentes para atender às suas necessidades específicas. Conhecimento em linguagens como Python, C ou Ruby pode ser crucial para isso.
 
-- 5. **Entendimento de Redes**  
+ 5. **Entendimento de Redes**  
 Programar também ajuda a entender como as redes funcionam e como as informações são transmitidas entre os dispositivos. Conhecimentos de protocolos como TCP/IP, UDP, HTTP, DNS e outros são essenciais para manipulação de tráfego de rede ou para ataques como injeção de pacotes, sniffing, man-in-the-middle e DDoS.
 
-- 6. **Criptografia e Análise de Dados**  
+ 6. **Criptografia e Análise de Dados**  
 Muitos hackers precisam entender como funcionam os sistemas de criptografia e como quebrá-los. A programação permite que você escreva e entenda algoritmos de criptografia, análise de segurança de protocolos criptográficos e até mesmo desenvolva suas próprias técnicas de criptografia.
 
-- 7. **Desenvolvimento de Malware**  
+ 7. **Desenvolvimento de Malware**  
 Criação de vírus, worms, trojans e ransomware são feitos por hackers maliciosos para causar danos ou roubar informações. A programação é uma habilidade fundamental nesse contexto, pois permite que o hacker crie e modifique códigos maliciosos de acordo com os objetivos do ataque.
 
-- 8. **Desenvolvimento de Exploits**  
+ 8. **Desenvolvimento de Exploits**  
 Exploits são peças de código que tiram vantagem de vulnerabilidades de software para obter controle ou informações privilegiadas. Programar é essencial para entender como escrever exploits que podem ser usados para invadir sistemas. Além disso, é importante para corrigir vulnerabilidades de segurança, algo que hackers éticos fazem para melhorar a segurança de sistemas.
 
-- 9. **Customização de Ferramentas Existentes**  
+ 9. **Customização de Ferramentas Existentes**  
 Muitos hackers usam ferramentas existentes para seus testes de penetração, mas o verdadeiro diferencial está em personalizar ou adaptar essas ferramentas para a situação específica que estão enfrentando. Isso pode envolver a modificação de scripts, a criação de novas funcionalidades ou até a integração de diferentes ferramentas para maximizar a eficácia do ataque.
 
 > 📚 **Livros e Guias**
@@ -848,17 +848,17 @@ A matemática é usada para entender e desmontar sistemas binários, analisando 
 
 ### 12 - 🔒 Criptografia
 
-# 🔐 O que é Criptografia?
+#### 🔐 O que é Criptografia?
 
 Criptografia é uma técnica de segurança essencial que protege dados transformando-os em um formato ilegível através de algoritmos matemáticos 🧮. Existem dois tipos principais de criptografia:
 
-## 🔑 Tipos de Criptografia
+#### 🔑 Tipos de Criptografia
 
 - **Criptografia Simétrica**: Usa a mesma chave para cifrar e decifrar dados 🔄.
 - **Criptografia Assimétrica**: Usa duas chaves diferentes – uma pública e uma privada 🗝️.
 
 
-## 🔍 Por Que é Importante?
+#### 🔍 Por Que é Importante?
 
 A criptografia é fundamental para garantir a segurança e privacidade dos dados 💻🔒. Seus principais benefícios incluem:
 
@@ -868,35 +868,33 @@ A criptografia é fundamental para garantir a segurança e privacidade dos dados
 - **Não Repúdio**: Previne que uma parte negue ter enviado uma mensagem 📜.
 
 
-## 🧑‍💻 Importância no Hacking
+#### 🧑‍💻 Importância no Hacking
 
-Na segurança cibernética, a criptografia pode tanto proteger quanto ser um alvo de hackers ⚔️. Veja como:
+Na segurança cibernética, a criptografia pode tanto proteger quanto ser um alvo de cibercriminoso ⚔️. Veja como:
 
-- **Proteção contra Hackers**: Dados criptografados são mais difíceis de serem interceptados e lidos, adicionando uma camada extra de segurança 🛡️.
-- **Quebra de Criptografia**: Hackers tentam quebrar a criptografia para acessar dados sensíveis. A força da criptografia torna essa tarefa mais desafiadora 💥.
-- **Ferramenta para Hackers Éticos**: Profissionais de segurança cibernética (hackers éticos) usam criptografia para proteger dados e identificar vulnerabilidades em sistemas 👨‍💻🔐.
+- **Proteção contra cibercriminosos**: Dados criptografados são mais difíceis de serem interceptados e lidos, adicionando uma camada extra de segurança 🛡️.
+- **Quebra de Criptografia**: Hackers e cibercriminosos tentam quebrar a criptografia para acessar dados sensíveis. A força da criptografia torna essa tarefa mais desafiadora 💥.
 
+#### 🔒 O que são Hash e Salt?
 
-# 🔒 O que são Hash e Salt?
+##### 💡 Hash
 
-## 💡 Hash
-
-### O que é Hash?
+#### O que é Hash?
 
 Hash é um processo matemático que transforma dados (como senhas ou arquivos) em um valor fixo de comprimento, chamado "valor hash". Esse valor é uma sequência de caracteres que, ao ser gerada, não pode ser revertida para recuperar os dados originais 🔍.
 
 Exemplo: Se você aplicar um algoritmo hash na senha `"minhasenha123"`, o resultado será algo como `5f4dcc3b5aa765d61d8327deb882cf99` – um código único que representa a senha de forma ilegível 💻🔑.
 
-### Para que Serve o Hash?
+#### Para que Serve o Hash?
 
-- **Armazenamento Seguro de Senhas**: Quando você cria uma conta online, a senha não é salva diretamente, mas sim seu valor hash. Isso dificulta que hackers acessem a senha original 🔐.
+- **Armazenamento Seguro de Senhas**: Quando você cria uma conta online, a senha não é salva diretamente, mas sim seu valor hash. Isso dificulta que cibercriminosos acessem a senha original 🔐.
 - **Verificação de Integridade**: O hash é utilizado para verificar se um arquivo ou dado foi alterado. Se o hash de um arquivo original coincidir com o hash gerado depois, sabemos que ele não foi modificado 🧐.
 
-### Como Funciona o Hash?
+#### Como Funciona o Hash?
 
 O algoritmo de hashing pega dados de qualquer tamanho e gera um valor fixo de caracteres (o hash). A menor alteração nos dados originais gera um hash completamente diferente, tornando muito difícil reverter o hash de volta para os dados originais 🔄.
 
-### Exemplo de Hash
+#### Exemplo de Hash
 
 - Entrada: `"minhasenha123"`
 - Hash gerado: `5f4dcc3b5aa765d61d8327deb882cf99`
@@ -904,26 +902,26 @@ O algoritmo de hashing pega dados de qualquer tamanho e gera um valor fixo de ca
 Embora a entrada seja simples, o hash gerado é único e impossível de ser revertido para a senha original diretamente ⚡.
 
 
-## 🧂 Salt
+#### 🧂 Salt
 
-### O que é Salt?
+#### O que é Salt?
 
 Salt é um valor aleatório adicionado ao processo de hashing para garantir que senhas iguais gerem hashes diferentes 🔑✨. Quando aplicamos o hash, o salt é adicionado à senha antes de gerar o valor hash.
 
 Por exemplo, se duas pessoas escolherem a mesma senha `"minhasenha123"`, o salt garante que os hashes gerados serão diferentes, porque o salt é único para cada um 🧂.
 
-### Para que Serve o Salt?
+#### Para que Serve o Salt?
 
 - **Evitar Ataques de Tabelas Rainbow**: Tabelas rainbow são usadas por hackers para descobrir senhas rapidamente. O salt torna esse ataque ineficaz, garantindo que cada hash seja único mesmo para senhas iguais 🔒.
 - **Aumentar a Segurança**: Ao adicionar salt, até que um hacker consiga quebrar o hash, ele precisa também conhecer o salt único associado a ele. Isso dificulta ainda mais a tarefa de acessar dados sensíveis 🛡️.
 
-### Como Funciona o Salt?
+#### Como Funciona o Salt?
 
 1. O salt é gerado aleatoriamente e é único para cada usuário ou senha 🎲.
 2. O salt é combinado com a senha antes de passar pelo algoritmo de hash 🔐.
 3. O hash final gerado é armazenado junto com o salt no banco de dados (mas o salt não precisa ser mantido em segredo) 📂.
 
-### Exemplo de Salt
+#### Exemplo de Salt
 
 - Senha: `"minhasenha123"`
 - Salt gerado: `abc123xyz`
@@ -933,20 +931,15 @@ Por exemplo, se duas pessoas escolherem a mesma senha `"minhasenha123"`, o salt 
 O valor hash gerado para a senha com salt será diferente de outro usuário com a mesma senha, mas com um salt distinto 🔑💥.
 
 
-## Resumo
-
-- **Hash**: Processo que gera um valor único a partir de dados de entrada, como senhas, tornando-os ilegíveis.
-- **Salt**: Valor aleatório adicionado ao dado original antes do hash para garantir que hashes iguais para senhas iguais não aconteçam.
-
-### Por que isso é Importante?
+#### Por que isso é Importante?
 
 - **Segurança**: O uso de hash e salt juntos torna muito mais difícil para hackers acessarem senhas ou dados sensíveis 🛡️.
 - **Prevenção de Ataques**: A combinação de hash e salt ajuda a proteger os dados contra ataques avançados, tornando a vida dos hackers bem mais difícil ⚔️.
 
 
-## Materiais de Estudo:
+#### Materiais de Estudo:
 
-### 🌐 Cursos Online Gratuitos
+#### 🌐 Cursos Online Gratuitos
 
 - [6 Cursos Online Gratuitos de Criptografia - WeLiveSecurity](https://www.welivesecurity.com/br/2019/03/19/6-cursos-online-gratuitos-de-criptografia/) - Uma lista de cursos gratuitos para aprender criptografia, desde conceitos básicos até tópicos mais avançados.
 - [Coursera - Cryptography](https://www.coursera.org/learn/crypto) - Um curso que aborda tópicos essenciais de criptografia.
@@ -955,13 +948,13 @@ O valor hash gerado para a senha com salt será diferente de outro usuário com 
 
 - [Entendendo Conceitos Básicos de CRIPTOGRAFIA | Parte 1/2 (Fabio Akita)](https://www.youtube.com/watch?v=CcU5Kc_FN_4&t=179s) - Então no episódio de hoje vamos começar com alguns conceitos muito básicos sobre encriptação simétrica, alguns algoritmos famosos como DES e AES, entender como acontecem alguns tipos comuns de ataques como dicionário ou extensão de comprimento, e entender o que são de verdades os hashes que programadores usam todos os dias sem saber..
 
-### 📚 Livros Recomendados
+#### 📚 Livros Recomendados
 
 - **"Applied Cryptography"** de Bruce Schneier - Um clássico que cobre muitos aspectos da criptografia, com exemplos práticos.
 - **"Cryptography and Network Security"** de William Stallings - Um ótimo livro para quem quer entender a criptografia no contexto da segurança de redes.
 - **"The Code Book"** de Simon Singh - Conta a história da criptografia desde a antiguidade até os dias atuais de uma forma acessível e interessante.
 
-### 🌍 Sites e Ferramentas
+#### 🌍 Sites e Ferramentas
 
 - [Invertexto - Texto Criptografado](https://www.invertexto.com/texto-criptografado) - Ferramenta online para criptografar e descriptografar textos.
 - [TutorialsPoint - Criptografia](https://www.tutorialspoint.com/cryptography/index.htm) - Guia completo sobre criptografia, com explicações detalhadas sobre os algoritmos mais comuns.
@@ -973,9 +966,182 @@ O valor hash gerado para a senha com salt será diferente de outro usuário com 
 
 ### 13 - 🌐 Web
 
----
+#### 🌐 A Importância de Estudar a Web 
 
+#### 📜 **História da Web**
+A Web, ou World Wide Web (WWW), é um dos maiores marcos tecnológicos da humanidade. Criada por **Tim Berners-Lee** em **1989** no CERN, ela transformou a maneira como nos comunicamos, trabalhamos e vivemos.
+
+#### **Marcos Históricos**
+- **1989**: Proposta inicial da Web como um sistema de hipertexto.
+- **1991**: Primeira página da Web foi publicada, explicando o projeto.
+- **1993**: Lançamento do Mosaic, o primeiro navegador gráfico amplamente utilizado.
+- **1994**: Fundação do **W3C (World Wide Web Consortium)** para padronizar tecnologias da Web.
+- **2000s**: A chegada da Web 2.0 trouxe maior interatividade, com redes sociais e colaboração.
+- **Futuro**: A Web 3.0, com descentralização, blockchain e inteligência artificial, está moldando o próximo capítulo.
+
+
+#### 🛠️ **Como a Web Funciona**
+
+A Web é uma rede de informações que conecta bilhões de dispositivos no mundo todo. Seu funcionamento é baseado no modelo **cliente-servidor**, mediado pela internet. 
+
+#### **Elementos Chave**
+1. **Protocolo HTTP/HTTPS**:
+   - Define como os dados são transmitidos.
+   - HTTPS garante segurança com criptografia.
+2. **Navegadores (Clientes)**:
+   - Interpretam e exibem conteúdo (HTML, CSS, JavaScript etc.).
+3. **Servidores**:
+   - Armazenam e entregam dados aos navegadores.
+4. **Rede**:
+   - Baseada em TCP/IP, conecta clientes e servidores globalmente.
+
+#### **1. O usuário insere uma URL no navegador.**
+- **Camada de Aplicação (7ª camada):**
+  - O navegador interpreta a URL e determina o tipo de solicitação a ser feita, como **HTTP/HTTPS**.
+  - Ele usa protocolos como DNS (para resolver o nome do domínio para um endereço IP).
+
+
+#### **2. O navegador envia uma solicitação HTTP ao servidor.**
+- **Camada de Aplicação (7ª camada):**
+  - O navegador monta a solicitação HTTP ou HTTPS, incluindo cabeçalhos e parâmetros.
+  - Exemplo: Um pedido GET para obter o conteúdo da página.
+- **Camada de Apresentação (6ª camada):**
+  - Em conexões HTTPS, ocorre criptografia do conteúdo usando SSL/TLS.
+- **Camada de Sessão (5ª camada):**
+  - Estabelece uma sessão de comunicação entre o cliente e o servidor.
+
+#### **3. Os dados passam para as camadas inferiores para serem transmitidos pela rede.**
+- **Camada de Transporte (4ª camada):**
+  - Utiliza o protocolo TCP para dividir a solicitação em pacotes e garantir a entrega correta (ou UDP, para transmissões menos críticas).
+- **Camada de Rede (3ª camada):**
+  - A solicitação é encapsulada em datagramas IP com endereços de origem (cliente) e destino (servidor).
+- **Camada de Enlace de Dados (2ª camada):**
+  - Traduz os pacotes IP em quadros para transmissão pela rede local.
+- **Camada Física (1ª camada):**
+  - Realiza a transmissão física dos dados (via cabo, fibra ótica ou ondas de rádio).
+
+#### **4. O servidor processa e retorna a resposta (conteúdo).**
+- O servidor recebe os dados pela **Camada Física** e os passa pelas camadas superiores até a **Camada de Aplicação**.
+- Na camada de aplicação, o servidor processa a solicitação HTTP, consulta bancos de dados ou arquivos e monta a resposta (HTML, CSS, JS, etc.).
+- O conteúdo é transmitido de volta para o cliente pelas camadas OSI, seguindo o mesmo caminho inverso.
+
+#### **5. O navegador renderiza a página para o usuário.**
+- **Camada de Aplicação (7ª camada):**
+  - O navegador recebe o conteúdo e processa os arquivos HTML, CSS e JS.
+  - Renderiza a página com gráficos, interatividade e conteúdo solicitado.
+
+#### **Por Que Estudar o Funcionamento da Web no Hacking?**
+
+#### **1. Identificação de Vulnerabilidades:**
+- Entender como os dados viajam pelas camadas OSI ajuda a localizar falhas como ataques MITM (na camada de Rede) ou injeções SQL (na camada de Aplicação).
+
+#### **2. Exploits e Ferramentas:**
+- Criar ou adaptar exploits para vulnerabilidades específicas em servidores ou navegadores depende do conhecimento profundo da comunicação entre as camadas.
+
+#### **3. Análise de Tráfego:**
+- Ferramentas como Wireshark permitem visualizar pacotes em diferentes camadas (especialmente Rede e Transporte), possibilitando entender ataques ou testar segurança.
+
+#### **4. Defesa e Ataque:**
+- Estudar criptografia (Camada de Apresentação) e sessões (Camada de Sessão) é essencial para proteger dados sensíveis e identificar vulnerabilidades.
+
+#### **5. Automação:**
+- Bots, scanners e ferramentas de pentest trabalham manipulando solicitações HTTP/S diretamente na camada de Aplicação. (PELO O AMOR DE DEUS, ESTUDE E FAÇA AS SUAS FERRAMENTAS, NÃO ME SAIA DAQUI PARA NO FINAL USAR SQLMAP)
+
+
+#### 🎯 **Para Que Serve a Web**
+
+A Web é uma ferramenta multifuncional com infinitas possibilidades, incluindo:
+
+- **Comunicação**: Redes sociais, e-mails e chats.
+- **Educação**: Cursos online, pesquisas e tutoriais.
+- **Comércio**: E-commerce, pagamentos online e marketplaces.
+- **Entretenimento**: Streaming de vídeos, jogos e música.
+- **Serviços**: Aplicações para saúde, finanças e produtividade.
+
+
+#### 🔒 **Por Que Estudar a Web no Hacking?**
+
+A Web é um dos alvos mais comuns no hacking. Aqui está o porquê:
+
+#### **Superfícies de Ataque**
+- **Aplicações Web**: São as mais expostas e frequentemente vulneráveis.
+- **APIs**: Muitas vezes subestimadas, mas podem conter falhas críticas.
+- **Subdomínios**: Pontos de entrada para ataques de reconhecimento e exploração.
+
+#### **Tipos de Ataques Web**
+1. **SQL Injection**: Manipulação de consultas para acessar dados sensíveis.
+2. **Cross-Site Scripting (XSS)**: Injeção de scripts maliciosos em páginas confiáveis.
+3. **Cross-Site Request Forgery (CSRF)**: Enganar usuários para realizar ações não autorizadas.
+4. **File Inclusion**: Exploração de arquivos mal configurados no servidor.
+5. **Directory Traversal**: Acesso indevido a diretórios e arquivos.
+   > Há muitos ataques para explorar; conforme seus estudos, você vai aprender sobre eles.
+
+#### **Benefícios no Hacking Ético**
+- Identificar e corrigir vulnerabilidades.
+- Proteger informações confidenciais.
+- Realizar testes de penetração para fortalecer sistemas.
+
+
+
+#### 📈 **Dicas de Estudo**
+- **Pratique**: Construa projetos do zero para aplicar o que aprendeu. Não adianta assistir a vídeos sobre como criar um portfólio enquanto fica de braços cruzados e só acha que aprendeu. PRATIQUE!
+- **Participe de Comunidades**: Fóruns como Stack Overflow, Reddit e Discord (Não recomendo).
+- **Leia**: Explore recursos como OWASP Top 10 e documentação oficial de tecnologias.
+- **Simule**: Utilize plataformas como Hack The Box e TryHackMe para treinar suas habilidades.
+  
+#### 🛠️ **Materiais de Estudo:**
+
+#### **Plataformas:**
+- [Coursera](https://www.coursera.org/)
+- [Udemy](https://www.udemy.com/)
+- [Udemy](https://www.udemy.com/)
+
+#### **Livros:**
+- **HTML and CSS: Design and Build Websites** por Jon Duckett  
+  Um ótimo livro para iniciantes aprenderem os fundamentos de HTML e CSS.
+
+- **JavaScript: The Good Parts** por Douglas Crockford  
+  Essencial para entender JavaScript de forma profunda e evitar práticas ruins.
+
+- **Eloquent JavaScript** por Marijn Haverbeke  
+  Um livro interativo e gratuito disponível online para quem quer se aprofundar em JavaScript.
+
+#### **Documentação e Tutoriais:**
+- [MDN Web Docs](https://developer.mozilla.org/)  
+  A referência oficial e completa para desenvolvedores web.
+
+- [W3Schools](https://www.w3schools.com/)  
+  Um ótimo recurso para tutoriais rápidos e exemplos de código.
+
+- [freeCodeCamp](https://www.freecodecamp.org/)  
+  Uma plataforma interativa para aprender desenvolvimento web e muito mais.
+
+#### **Ferramentas e Recursos:**
+- [CodePen](https://codepen.io/)  
+  Uma ferramenta para escrever e compartilhar código HTML, CSS e JavaScript online.
+
+- [GitHub](https://github.com/)  
+  A maior plataforma de hospedagem de código-fonte, essencial para colaboração e controle de versão.
+
+- [Stack Overflow](https://stackoverflow.com/)  
+  Uma comunidade de desenvolvedores para tirar dúvidas e compartilhar soluções.
+
+#### **Blogs e Comunidades:**
+- [CSS-Tricks](https://css-tricks.com/)  
+  Um blog que cobre todas as facetas de CSS e desenvolvimento front-end.
+
+- [Smashing Magazine](https://www.smashingmagazine.com/)  
+  Um excelente blog de design e desenvolvimento web.
+
+- [r/webdev no Reddit](https://www.reddit.com/r/webdev/)  
+  Uma comunidade ativa para desenvolvedores web compartilharem ideias, recursos e aprendizados.
+
+
+> Vou adicionar mais conteúdos
+ 
 ### 14 - 🛠️ Engenharia Reversa
+
+
 
 ---
 
