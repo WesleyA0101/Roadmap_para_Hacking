@@ -33,7 +33,7 @@
 15. [🤝 Contribuição e Compartilhamento do Conhecimento](#15---contribuição-e-compartilhamento-do-conhecimento)  
 16. [🕶️ "Anônimato"](##16---anonimato)  
 17. [🐧 Distros Linux 'Hackers de Boutique' – Porque Só dar apt update não te faz um hacker](#17---Distros-Linux-'Hackers-de-Boutique'-–Porque-Só-dar-apt-update-não-te-faz-um-hacker)  
-18. [🛡️ Pentesting (Testes de Penetração)](#18---pentesting-testes-de-penetração)  
+18. [🛡️ Bug Bounty](#18---Bug-Bounty)  
 19. [🌍 Hacktivismo](#19---hacktivismo)  
 20. [🧩 Malware](#20---malware)
 21. [🎓 Certificações para o mercado de trabalho](#21---Certificações-para-o-mercado-de-trabalho)
@@ -1139,9 +1139,125 @@ A Web é um dos alvos mais comuns no hacking. Aqui está o porquê:
 
 > Vou adicionar mais conteúdos
 
- ---
+---
  
-### 14 - 🛠️ Engenharia Reversa
+#### 14 - 🛠️ Engenharia Reversa
+
+A engenharia reversa é uma prática antiga, que remonta à análise de ferramentas e dispositivos criados por civilizações passadas. ⚙️ Durante a Revolução Industrial, tornou-se mais sistemática, sendo usada para entender e reproduzir máquinas complexas. 
+
+💣 Na Segunda Guerra Mundial, sua aplicação foi crucial: tecnologias inimigas, como radares e aviões, eram desmontadas para fins estratégicos. 
+
+💾 Com o avanço da computação no século XX, a engenharia reversa migrou para o digital, desvendando sistemas operacionais, softwares e hardwares.
+
+
+#### 🌍 **Origem e Evolução**
+
+A prática moderna nasceu nos anos 1960, em polos tecnológicos como Estados Unidos, Alemanha e Japão. Com a chegada da computação avançada, ferramentas como depuradores (debuggers), disassemblers e analisadores de memória transformaram a engenharia reversa em uma ciência. 🖥️
+
+🔧 Ela ganhou relevância em diversas áreas, como desenvolvimento industrial, pesquisa tecnológica e segurança digital.
+
+
+
+#### 🎯 **Objetivos da Engenharia Reversa**
+
+A engenharia reversa possui aplicações amplas, sendo uma ferramenta essencial para várias áreas:
+
+#### 🔐 **1. Segurança da Informação**
+- Analisar malwares para identificar comportamentos maliciosos e desenvolver contramedidas.
+- Descobrir vulnerabilidades em sistemas para reforçar sua segurança.
+
+#### 🔄 **2. Interoperabilidade**
+- Desenvolver softwares ou dispositivos compatíveis com sistemas proprietários.
+- Criar drivers e APIs para melhorar integração.
+
+#### 🛠️ **3. Recuperação de Sistemas**
+- Restaurar funcionalidades de sistemas corrompidos ou descontinuados.
+- Desbloquear dados importantes em softwares obsoletos.
+
+#### 📚 **4. Educação e Pesquisa**
+- Aprender como funcionam tecnologias avançadas.
+- Dominar técnicas de programação e design de sistemas.
+
+#### ✅ **5. Verificação de Compliance**
+- Garantir que softwares sigam regulamentações e licenças.
+- Identificar possíveis violações de propriedade intelectual.
+
+
+#### 🕵️ **Importância no Hacking Purista**
+
+No universo do hacking purista, a engenharia reversa é uma arte e ciência essencial, que representa o espírito de curiosidade e aprendizado contínuo. 🧠✨
+
+#### ⚡ **1. Compreensão Total**
+Permite entender os sistemas além da superfície, explorando cada detalhe técnico.
+
+#### 💡 **2. Criatividade Técnica**
+Facilita a descoberta de brechas e soluções.
+
+#### 🚀 **3. Independência**
+Elimina a dependência de documentações ou permissões externas.
+
+#### 🔒 **4. Fortalecimento de Sistemas**
+Ao identificar vulnerabilidades, hackers ajudam a tornar a tecnologia mais segura para todos.
+
+
+#### 🚀 **Por Que Estudar Engenharia Reversa?**
+
+- **🛡️ Proteção**: Melhore a segurança de sistemas e dados sensíveis.
+- **🔍 Investigação**: Desvende tecnologias misteriosas e aprenda com elas.
+- **🌟 Criatividade**: Inove ao criar soluções a partir de sistemas existentes.
+- **💼 Carreira**: Engenheiros reversos são altamente valorizados em segurança cibernética, desenvolvimento e pesquisa.
+
+
+#### 🖥️ **Cursos e Materiais Práticos**
+
+1. 🎓 [A Arte da Engenharia Reversa - Mente Binária](https://www.mentebinaria.com.br/cursos/a-arte-da-engenharia-reversa-r14/)  
+   Um curso essencial para iniciantes e intermediários, cobrindo técnicas práticas e ferramentas usadas no mercado.
+
+
+#### 📜 **Apostilas e Documentos Acadêmicos**
+
+2. 📄 [Apostila de Reengenharia e Engenharia Reversa - USP](https://edisciplinas.usp.br/pluginfile.php/673280/course/section/317581/Aula14_ReengenhariaEngReversa.pdf)  
+   Uma introdução acadêmica detalhada sobre reengenharia e engenharia reversa.
+
+3. 📘 [Reengenharia e Engenharia Reversa - UFPR](https://www.inf.ufpr.br/silvia/ES/reengenharia/reengenharia.pdf)  
+   Material técnico abordando conceitos fundamentais e aplicações.
+
+4. 📗 [Apostila: Introdução à Engenharia Reversa](https://studylib.net/doc/26294646/apostila---introdu%C3%A7%C3%A3o-%C3%A0-engenharia-reversa)  
+   Documento introdutório para entender os princípios e práticas iniciais.
+
+
+
+#### 📝 **Artigos e Publicações**
+
+5. 🖋️ [Engenharia Reversa - Wishbox Blog](https://www.wishbox.net.br/blog/engenharia-reversa/)  
+   Um artigo explicativo sobre a importância e utilidade da engenharia reversa.
+
+6. 📑 [Repositório Acadêmico - Engenharia Reversa](https://repositorio-api.animaeducacao.com.br/server/api/core/bitstreams/6a96b1e2-4563-4ea6-88a1-4649425d8be2/content)  
+   Publicação sobre engenharia reversa em ambientes educacionais e profissionais.
+
+7. 📚 [Monografia: Estudo sobre Engenharia Reversa e Ferramentas](https://www.passeidireto.com/arquivo/37536286/monografia-estudo-sobre-engenharia-reversa-e-avaliacao-da-usabilidade-de-ferrame)  
+   Uma análise detalhada sobre ferramentas e metodologias.
+
+
+#### 🌐 **Artigos Online**
+
+8. 🌍 [O Que É Engenharia Reversa? - Credited Tecnologia](https://tecnologia.credited.com.br/glossario/o-que-e-engenharia-reversa-entenda-o-conceito/)  
+   Explicação simples e direta do conceito e suas aplicações.
+
+9. 📰 [Engenharia Reversa - Engenharia360](https://engenharia360.com/engenharia-reversa/)  
+   Abordagem prática sobre desconstruir para inovar.
+
+10. 🖥️ [Engenharia Reversa na Wikipédia](https://pt.wikipedia.org/wiki/Engenharia_reversa)  
+    Recurso introdutório com referências adicionais.
+
+
+#### 🧠 **Blogs e Insights**
+
+11. ✍️ [O Que É Engenharia Reversa e Para o Que Ela Serve? - XP Educação](https://blog.xpeducacao.com.br/o-que-e-engenharia-reversa-e-para-o-que-ela-serve/)  
+    Explicação completa sobre o papel e impacto da engenharia reversa.
+
+12. 🛠️ [Engenharia Reversa: Desconstruindo Para Inovar - Blog da Engenharia](https://blogdaengenharia.com/engenharia/engenharia-reversa-desconstruindo-para-inovar/)  
+    Reflexões sobre como a engenharia reversa contribui para a inovação.
 
 
 
@@ -1159,7 +1275,7 @@ A Web é um dos alvos mais comuns no hacking. Aqui está o porquê:
 
 ---
 
-### 18 - 🛡️ Pentesting (Testes de Penetração)
+### 18 - 🛡️ Bug Bounty
 
 ---
 
