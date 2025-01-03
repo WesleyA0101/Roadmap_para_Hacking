@@ -1094,7 +1094,7 @@ A Web é um dos alvos mais comuns no hacking. Aqui está o porquê:
 #### **Plataformas:**
 - [Coursera](https://www.coursera.org/)
 - [Udemy](https://www.udemy.com/)
-- [Udemy](https://www.udemy.com/)
+- [Edx](https://www.edx.org/)
 
 #### **Livros:**
 - **HTML and CSS: Design and Build Websites** por Jon Duckett  
