@@ -1850,22 +1850,21 @@ As razões para a criação e disseminação de malware variam amplamente:
 A engenharia reversa desempenha um papel crucial na compreensão do funcionamento interno de malwares e no desenvolvimento de soluções eficazes para mitigá-los.
 
 #### 📚 **Recursos para Estudo**
-1. [Malwarebytes Labs](https://www.malwarebytes.com/blog/)
-2. [The Art of Computer Virus Research and Defense - Peter Szor](https://www.amazon.com/Art-Computer-Virus-Research-Defense/dp/0321304543)
-3. [VX Underground](https://vx-underground.org/): Repositório de malwares e pesquisas avançadas.
-4. [MalDev Academy](https://maldevacademy.com/)
-5. [Introdução ao Desenvolvimento de Malware (YouTube)](https://www.youtube.com/watch?v=uu_0Zs8sErQ)
-6. [Malware Development Part 1 (Blog)](https://0xpat.github.io/Malware_development_part_1/)
-7. [Introdução ao Desenvolvimento de Malware (MakoSec)](https://makosecblog.com/malware-dev/malware-development-intro/)
-8. [Malware Development Introduction Part 1 (W. Summerhill)](https://wsummerhill.github.io/redteam/2024/02/06/Malware-Development-Introduction-Part1.html)
-9. [Malware Dev & Analysis (Fareed Fauzi)](https://fareedfauzi.github.io/2021/09/20/Malware-dev-analysis.html)
-10. [Ferramentas para Desenvolvimento de Malware (OffWhite Security)](https://offwhitesecurity.dev/malware-development/tools/)
-11. [Categoria: Malware Development (Gatari)](https://gatari.dev/categories/malware-dev/)
-12. [Malware Dev - Sandbox Evasion com Machine Learning (D3Ext)](https://d3ext.github.io/posts/malware-dev-15/)
-13. [Malware on Steroids - Part 3 (0xDarkVortex)](https://0xdarkvortex.dev/malware-on-steroids-part-3-machine-learning-sandbox-evasion/)
-14. [Custom Command and Control (C2) Servers](https://0xpat.github.io/C2_Servers/)
-15. [Red Team Operator Malware Development](https://redteamer.tips/)
-16. [Understanding Malware Packing (PE Files)](https://www.securitylearn.net/malware-packing/)
+1. [The Art of Computer Virus Research and Defense - Peter Szor](https://www.amazon.com/Art-Computer-Virus-Research-Defense/dp/0321304543)
+2. [VX Underground](https://vx-underground.org/): Repositório de malwares e pesquisas avançadas.
+3. [MalDev Academy](https://maldevacademy.com/)
+4. [Introdução ao Desenvolvimento de Malware (YouTube)](https://www.youtube.com/watch?v=uu_0Zs8sErQ)
+5. [Malware Development Part 1 (Blog)](https://0xpat.github.io/Malware_development_part_1/)
+6. [Introdução ao Desenvolvimento de Malware (MakoSec)](https://makosecblog.com/malware-dev/malware-development-intro/)
+7. [Malware Development Introduction Part 1 (W. Summerhill)](https://wsummerhill.github.io/redteam/2024/02/06/Malware-Development-Introduction-Part1.html)
+8. [Malware Dev & Analysis (Fareed Fauzi)](https://fareedfauzi.github.io/2021/09/20/Malware-dev-analysis.html)
+9. [Ferramentas para Desenvolvimento de Malware (OffWhite Security)](https://offwhitesecurity.dev/malware-development/tools/)
+10. [Categoria: Malware Development (Gatari)](https://gatari.dev/categories/malware-dev/)
+11. [Malware Dev - Sandbox Evasion com Machine Learning (D3Ext)](https://d3ext.github.io/posts/malware-dev-15/)
+12. [Malware on Steroids - Part 3 (0xDarkVortex)](https://0xdarkvortex.dev/malware-on-steroids-part-3-machine-learning-sandbox-evasion/)
+13. [Custom Command and Control (C2) Servers](https://0xpat.github.io/C2_Servers/)
+14. [Red Team Operator Malware Development](https://redteamer.tips/)
+15. [Understanding Malware Packing (PE Files)](https://www.securitylearn.net/malware-packing/)
 
 #### 📖 Livros Recomendados
 - **[Practical Malware Analysis: The Hands-On Guide to Dissecting Malicious Software](https://www.amazon.com.br/Practical-Malware-Analysis-Dissecting-Malicious/dp/1593272919)**
