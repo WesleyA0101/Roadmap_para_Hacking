@@ -1589,9 +1589,21 @@ Se você deseja aprender de verdade e se tornar um profissional de segurança ci
 
 #### Bug Bounty: Prática de Hacking Ético 🛠️💻
 
+<div align="center">
+  <img src="https://th.bing.com/th/id/OIP.DaZo2X-GC6hLWijLOBwQogHaEh?w=246&h=180&c=7&r=0&o=5&pid=1.7" width="220" alt="" />
+</div>
+
 O programa de **bug bounty** (recompensas por bugs) é uma prática que surgiu como uma maneira de incentivar a descoberta e correção de vulnerabilidades de segurança em sistemas de software. Sua história remonta ao final dos anos 90, quando empresas começaram a perceber que os hackers éticos, também conhecidos como *white hats* 🦸‍♂️, poderiam ajudar a encontrar falhas de segurança antes que elas fossem exploradas por indivíduos mal-intencionados (*black hats* 🦹‍♂️).
 
+<div align="center">
+  <img src="https://th.bing.com/th/id/OIP.MieW3J0gmUk13j0aAnEE8wHaDz?w=322&h=179&c=7&r=0&o=5&pid=1.7" width="220" alt="" />
+</div>
+
 O primeiro programa de **bug bounty** reconhecido oficialmente foi lançado pelo **Netscape Communications** em 1995. Eles ofereceram recompensas financeiras 💰 a qualquer pessoa que encontrasse e relatasse vulnerabilidades no navegador Netscape Navigator. Esse foi um marco que estabeleceu um ciclo de colaboração entre empresas e hackers éticos, transformando-os em aliados na luta contra as ameaças cibernéticas.
+
+<div align="center">
+  <img src="https://th.bing.com/th/id/OIP.WwOtyLK3V7gzwHORTBb23gHaEK?w=248&h=180&c=7&r=0&o=5&pid=1.7" width="220" alt="" />
+</div>
 
 #### Como Funciona o Ciclo do Bug Bounty 🔄
 
@@ -1605,6 +1617,10 @@ O ciclo do **bug bounty** é relativamente simples:
 
 4. **Correção e Recompensa** 🎉: Após a correção do bug, o hacker recebe a recompensa, que pode variar de acordo com a gravidade e o impacto da vulnerabilidade descoberta.
 
+<div align="center">
+  <img src="https://th.bing.com/th/id/OIP.fg2Rl1JIMJWKZMixpw71TAHaDt?w=343&h=180&c=7&r=0&o=5&pid=1.7" width="220" alt="" />
+</div>
+
 #### Benefícios do Bug Bounty 🌟
 
 - **Segurança Aprimorada** 🔒: O principal benefício é a melhoria da segurança do sistema. Através dos programas de bug bounty, empresas conseguem descobrir falhas de segurança que poderiam ser exploradas por hackers mal-intencionados antes que isso acontecesse.
@@ -1614,6 +1630,10 @@ O ciclo do **bug bounty** é relativamente simples:
 - **Economia de Recursos** 💡: Em vez de contratar uma grande equipe de segurança interna para realizar auditorias constantes, as empresas podem contar com uma comunidade global de pesquisadores de segurança. Isso pode ser mais eficiente e econômico.
 
 - **Recompensa Justa e Transparente** 💸: O modelo de recompensa oferece uma forma justa de compensar aqueles que contribuem para a segurança. A quantia pode variar conforme a gravidade da vulnerabilidade, tornando o processo transparente e baseado no mérito.
+
+<div align="center">
+  <img src="https://th.bing.com/th/id/OIP.nA6rw78G3dlX0td4qzUKxAHaD_?w=327&h=180&c=7&r=0&o=5&pid=1.7" width="220" alt="" />
+</div>
 
 #### Benefícios para a Prática do Hacking Ético 🧑‍💻
 
@@ -1627,11 +1647,46 @@ O **bug bounty** oferece um terreno fértil para a prática do hacking ético po
 
 4. **Reconhecimento Profissional** 🏆: Para aqueles que se destacam, o programa de bug bounty oferece a oportunidade de construir uma reputação sólida na comunidade de segurança. Hackers éticos podem ser reconhecidos como especialistas, podendo até receber ofertas de emprego de grandes empresas de segurança cibernética.
 
+<div align="center">
+  <img src="https://th.bing.com/th/id/OIP.DTX3i3S3FbZJfitx1pMmxgHaHa?w=182&h=182&c=7&r=0&o=5&pid=1.7" width="220" alt="" />
+</div>
+
 #### Por Que é Bom para a Prática do Hacking Ético 👨‍💻
 
 O **bug bounty** é uma das formas mais eficazes de praticar o hacking ético por diversas razões. Primeiramente, ele proporciona um espaço seguro e legal para explorar vulnerabilidades sem correr o risco de consequências jurídicas. Além disso, a variedade de sistemas e empresas envolvidas garante uma ampla gama de cenários de segurança, o que torna a experiência mais rica e desafiadora.
 
 Ao participar de programas de bug bounty, os hackers éticos têm a chance de aplicar o conhecimento adquirido de maneira prática, enfrentando problemas reais de segurança, e ganhando experiência valiosa. O retorno financeiro também serve como um incentivo, tornando o processo mais motivador e competitivo, ao mesmo tempo que oferece reconhecimento pelo trabalho realizado.
+
+<div align="center">
+  <img src="https://th.bing.com/th/id/OIP.t2dBSFtrkKDsnsjCyv3_bgHaD3?w=298&h=180&c=7&r=0&o=5&pid=1.7" width="220" alt="" />
+</div>
+
+#### 📚 Livros e E-books  
+https://www.amazon.com.br/Bug-Bounty-Bootcamp-Reporting-Vulnerabilities/dp/1718501544  
+https://conteudo.bughunt.com.br/ebook-bug-bounty  
+https://www.amazon.com.br/Bug-Bounty-Hunting-Essentials-Quick-paced/dp/1788626893  
+https://github.com/akr3ch/BugBountyBooks/blob/main/Bug-Bounty-Playbook-V2.pdf  
+
+#### 🗂 Repositórios e Listas de Recursos  
+https://github.com/akr3ch/BugBountyBooks  
+https://github.com/penetestersquad/Bug-Bounty-Free-Resources  
+https://github.com/bittentech/Bug-Bounty-Beginner-Roadmap  
+
+#### 🌐 Plataformas Bug Bounty  
+https://www.bugcrowd.com/
+https://www.bughunt.com.br/
+https://www.hackerone.com/  
+https://www.intigriti.com/  
+https://www.yeswehack.com/  
+https://www.openbugbounty.org/  
+
+#### 🔎 Pessoas referências
+https://www.instagram.com/ofjaaah/  
+https://www.instagram.com/xande_araujo/  
+
+#### 📄 Outros Materiais  
+https://tconline.feevale.br/tc/files/0001_5197.pdf  
+https://www.mindmeister.com/pt/1577748697/bug-bounty-platforms  
 
 ---
 
@@ -1639,15 +1694,27 @@ Ao participar de programas de bug bounty, os hackers éticos têm a chance de ap
 
 ### Hacktivismo: A Rebelião Digital 🌐💻
 
+<div align="center">
+  <img src="https://th.bing.com/th/id/OIP.KV6awhNFjSRZ41nWOFbRjwHaE4?w=269&h=180&c=7&r=0&o=5&pid=1.7" width="220" alt="hacktivismo" />
+</div>
+
 O **hacktivismo** é uma forma de ativismo que utiliza o hacking como ferramenta para promover causas políticas, sociais ou ambientais. Ele surgiu como uma resposta à crescente centralização do poder político e econômico na internet, com o objetivo de usar a tecnologia e as vulnerabilidades digitais para desafiar autoridades e corporações. Hackers, tradicionalmente conhecidos por suas habilidades técnicas, começaram a empregar essas habilidades para fins que ultrapassavam os limites do simples prazer de invadir sistemas, mas também para causar mudanças significativas em questões sociais e políticas.
 
 #### A Origem do Hacktivismo 🛠️⚖️
+
+<div align="center">
+  <img src="https://th.bing.com/th/id/OIP.9N5W-rmLcpawXunAbfxtAgHaEO?w=316&h=180&c=7&r=0&o=5&pid=1.7" width="220" alt="hacktivismo" />
+</div>
 
 O termo **hacktivismo** é uma junção das palavras "hacker" e "ativismo", e sua origem remonta ao final dos anos 90, quando os hackers começaram a usar suas habilidades para causas além do simples prazer de invadir sistemas. Durante esse período, as questões sobre a privacidade na internet, a censura digital e os direitos humanos se tornaram cada vez mais evidentes, motivando indivíduos e grupos a tomar ações digitais para lutar por mudanças.
 
 Os primeiros grupos de hacktivismo estavam ligados a movimentos que se opunham à censura, corporativismo, controle governamental da informação e outros problemas sociais. Os hackers, tradicionalmente conhecidos por suas habilidades em contornar sistemas, começaram a empregar essas habilidades para alterar ou derrubar sites governamentais e corporativos, e até mesmo para divulgar informações sensíveis sobre corrupção e violações de direitos humanos.
 
 #### A História dos Anonymous 👤💥
+
+<div align="center">
+  <img src="https://th.bing.com/th/id/OIP.MYJyoVdGz2M2FMZMQVkI4AHaHa?w=161&h=180&c=7&r=0&o=5&pid=1.7" width="220" alt="Anonymous" />
+</div>
 
 Os **Anonymous** são provavelmente o grupo de hacktivismo mais conhecido mundialmente, mas sua origem não é clara, e sua identidade permanece anônima. O movimento começou por volta de 2003, em um ambiente online descentralizado, como o fórum 4chan, como uma manifestação contra a censura, vigilância digital e controle de informações na internet. O grupo se destacou por sua abordagem descentralizada, onde qualquer pessoa poderia fazer parte sem uma liderança formal ou hierarquia. 
 
@@ -1661,11 +1728,19 @@ A partir daí, o grupo se expandiu para outras causas, incluindo o apoio à Prim
 
 #### A Evolução e a Vergonha das Novas Células de Anonymous 🚨
 
+<div align="center">
+  <img src="https://th.bing.com/th?q=Plano+De+Fundo+Palha%c3%a7os&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=pt-BR&cc=BR&setlang=pt-br&adlt=moderate&t=1&mw=247" width="220" alt="palhaço" />
+</div>
+
 Com o passar dos anos, os **Anonymous** passaram a ser associados a uma série de ações que nem sempre estavam alinhadas com os princípios originais do hacktivismo. Algumas das novas células de Anonymous foram rapidamente dominadas por interesses pessoais e grupos que buscavam notoriedade, em vez de lutar por mudanças sociais reais. Muitas dessas células começaram a realizar ataques sem um objetivo claro, muitas vezes visando apenas causar caos e elevar seu ego por carência, o que distorceu a verdadeira causa do hacktivismo.
 
 Além disso, com a popularização de grupos como os Anonymous, surgiram muitos imitadores e indivíduos que usaram o nome para ganhos próprios, muitas vezes sem compromisso com as causas originais. Esses "Anonymous" distorcidos acabaram gerando uma vergonha para o movimento, tornando-o mais uma moda do que uma verdadeira luta política e social. O "desvirtuamento" das células de Anonymous reflete o que acontece com qualquer movimento popular: o foco em causas legítimas se perde em prol de uma busca por atenção ou protagonismo, e a desorganização prejudica a credibilidade do movimento.
 
 #### A Máscara de Guy Fawkes 🎭: O Símbolo da Rebelião
+
+<div align="center">
+  <img src="https://th.bing.com/th/id/OIP.2-T8fQGZsGMre3S706QwEQHaGL?w=212&h=180&c=7&r=0&o=5&pid=1.7" width="220" alt="Guy Fawkes" />
+</div>
 
 A máscara de Guy Fawkes, usada pelos Anonymous, tem uma história rica e simbólica. Guy Fawkes foi um dos conspiradores envolvidos na **Conspiração da Pólvora**, uma tentativa frustrada de explodir o Parlamento Britânico em 1605. Fawkes tornou-se um ícone da rebelião, da resistência contra a tirania e do desejo de mudança.
 
@@ -1674,6 +1749,10 @@ A popularização da máscara de Fawkes começou com o filme *V for Vendetta* (2
 A máscara se tornou um símbolo poderoso e facilmente reconhecível do hacktivismo, sendo amplamente usada não apenas por grupos como os Anonymous, mas também em protestos e movimentos sociais ao redor do mundo.
 
 #### O Hacktivismo nos Dias Atuais 🧑‍💻🌍
+
+<div align="center">
+  <img src="https://th.bing.com/th/id/OIP.auBTyzjw-v9z-EsSXkHIpwHaDm?w=344&h=170&c=7&r=0&o=5&pid=1.7" alt="morto" />
+</div>
 
 Atualmente, o **hacktivismo** está **morto**, o grupo original **Anonymous** está **morto**, com apenas alguns **"travazapers"** que se acham hackers e fazem vídeos e lives no TikTok, sem nem saber o significado da máscara que usam, apenas para se sentirem alguém que não são, para ganhar fama e deturpar totalmente o movimento original, destruindo-o por conta de suas ideologias doentias, manipulados pelo governo que finge apoiar suas ideologias para ganhar em cima. Hoje, a maioria que se diz Anonymous são apenas adolescentes deturpados e manipuláveis, sem propósito e honra nenhuma pelo movimento. Eles puxam dados em painéis de canais no Telegram, fazem doxxing e acham que fizeram justiça. Isso, para mim, é coisa de paneleiros de Discord.
 
