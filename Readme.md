@@ -1893,3 +1893,155 @@ A engenharia reversa desempenha um papel crucial na compreensão do funcionament
 ---
 
 ### 21 - 🎓 Certificações e plataformas de ensino
+
+Existem várias certificações e plataformas que dizem ensinar pentest. Aqui, vou citar desde certificações de nível iniciante até as mais avançadas, além de plataformas de cursos, e o que eu acho delas:
+
+#### Certificações em Pentest e Cibersegurança 💻🔐
+
+#### Certificações para Iniciantes 🚀
+
+#### 🔰 **CompTIA Security+**
+- **Descrição**: Ideal para quem está começando na área de segurança da informação. Cobre conceitos básicos de segurança, redes e conformidade.
+
+<div align="center">
+  <img src="https://sicap.click/wp-content/uploads/2023/10/CompTIA-Security.png" alt="" width="200" />
+</div>
+
+  
+#### 💻 **Certified Ethical Hacker (CEH)**
+- **Descrição**: Oferecida pelo EC-Council, é uma das certificações mais conhecidas para quem quer se tornar um hacker ético. Foca em técnicas de hacking e ferramentas usadas por hackers.
+
+<div align="center">
+  <img src="https://firebrand.training/media/qizblinx/ec-council-certified-ceh-badge.jpg?width=768&height=768&rnd=133336425766070000" alt="" width="200" />
+</div>
+
+#### 🛠️ **eLearnSecurity Junior Penetration Tester (eJPT)**
+- **Descrição**: Uma certificação prática que testa habilidades básicas de pentest e segurança da informação.
+
+<div align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:522/1*mxrWAdXvSNhULZ6yWBE5Ow.png" alt="" width="200" />
+</div>
+
+#### Certificações Intermediárias ⚙️
+
+#### 🎯 **Offensive Security Certified Professional (OSCP)**
+- **Descrição**: Uma das certificações mais respeitadas na área de pentest. Exige que o candidato comprometa várias máquinas virtuais dentro de uma rede em um exame prático.
+
+<div align="center">
+  <img src="https://images.credly.com/images/ec81134d-e80b-4eb5-ae07-0eb8e1a60fcd/image.png" alt="" width="200" />
+</div>
+
+#### 🔒 **Certified Penetration Testing Professional (CPENT)**
+- **Descrição**: Oferecida pelo EC-Council, foca em técnicas avançadas de pentest e inclui um exame prático.
+
+<div align="center">
+  <img src="https://cybercastrum.com/wp-content/uploads/2022/11/cpent.jpg" alt="" width="200" />
+</div>
+
+#### 🌍 **GIAC Penetration Tester (GPEN)**
+- **Descrição**: Oferecida pelo SANS Institute, cobre uma ampla gama de técnicas de pentest e é reconhecida mundialmente.
+
+<div align="center">
+  <img src="https://images.contentstack.io/v3/assets/blt36c2e63521272fdc/blte92616127ffc3f86/63c71c14d1f34304558a3621/GPEN.png" alt="" width="200" />
+</div>
+
+#### Certificações Avançadas 🚨
+
+#### 🏅 **Offensive Security Certified Expert (OSCE)**
+- **Descrição**: Uma certificação avançada da Offensive Security que testa habilidades de exploração e pós-exploração em ambientes complexos.
+
+<div align="center">
+  <img src="https://thumbs.dreamstime.com/b/osce-organization-security-co-operation-europe-symbol-icon-264103056.jpg" alt="" width="200" />
+</div>
+
+#### 🔥 **Certified Red Team Professional (CRTP)**
+- **Descrição**: Foca em técnicas de **Red Teaming**, incluindo exploração de Active Directory e evasão de defesas.
+
+<div align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:413/1*f9CO-HTghdvMLKweeAv0Aw.png" alt="" width="200" />
+</div>
+
+#### ⚔️ **Certified Red Team Expert (CRTE)**
+- **Descrição**: Uma certificação avançada que testa habilidades de **Red Teaming** em ambientes complexos e simulados.
+
+<div align="center">
+  <img src="https://th.bing.com/th/id/OIP.XD0smaG0uSS2rO8E89VUogHaG4?rs=1&pid=ImgDetMain" alt="" width="200" />
+</div>
+
+#### Certificações Adicionais 📜
+
+#### 🛡️ **HackerSec Certified Pentester (HCP)**
+- **Descrição**: Oferecida pela HackerSec, é uma certificação prática que valida habilidades de pentest em ambientes corporativos reais.
+
+<div align="center">
+  <img src="https://boletimsec.com.br/wp-content/uploads/2022/07/certificacao_hackersec_hcp-min.png" alt="" width="200" />
+</div>
+
+#### 🔑 **Solyd Certified Pentester (SYCP)**
+- **Descrição**: Oferecida pela Solyd Offensive Security, é uma certificação prática focada em técnicas de exploração de vulnerabilidades e testes de penetração em redes, aplicativos e infraestrutura.
+
+<div align="center">
+  <img src="https://imgv2-2-f.scribdassets.com/img/document/745636534/original/3a99fc71a6/1727629572?v=1" alt="" width="200" />
+</div>
+
+
+#### 🛡️ Plataformas de ensino
+
+Conforme fui estudando ao longo do tempo, percebi que seria interessante conquistar alguns certificados e certificações para entrar na área. Fui pesquisando e adquirindo cursos de plataformas que o pessoal falava bem. Sempre gostei de estudar sozinho, lendo documentações, livros, PDFs, praticando e assistindo a vídeos no YouTube, mas nunca fui fã de frequentar uma sala de aula. No entanto, como no mercado brasileiro eles nem sempre reconhecem autodidatas e preferem um papel do que as habilidades reais, pois com o papel eles podem fazer propaganda e marketing para terceiros, dizendo que "nossa equipe é formada por tal faculdade". O problema é que esses mesmos profissionais muitas vezes são pagos para instalar e configurar firewalls e acabam sendo vulneráveis a ataques de moleques de 14 anos que mal sabem programar. Por isso, decidi fazer alguns cursos para, quem sabe, absorver o conhecimento de pessoas que estão na área há mais tempo que eu. Sempre optei por instrutores mais experientes, pessoas que aparentavam mais idade, que já não estão com idade para vender cursos superficiais, mas sim compartilhando um conhecimento maduro e sólido. Infelizmente, como são poucos, não tive muita escolha. Dentre algumas plataformas, estão:
+
+[**Solyd Offensive Security**](https://solyd.com.br/): 
+
+<div align="center">
+  <img src="https://hazevedo.dev/assets/solyd.png" alt="" width="200" />
+</div>
+
+Comprei todos os cursos de 2024 dessa plataforma e, apesar de eles fazerem uma boa propaganda, percebi que têm o hábito de reciclar aulas. A cada ano, aumentam o preço dos cursos, principalmente de pentest profissional, mas, ao acessar os conteúdos, encontrei módulos reciclados ou feitos pela metade. Um exemplo disso foi o módulo "C para Pentesters", que tinha apenas 4 aulas de C, o que é risível. O módulo de Python, por sua vez, era apenas uma reciclagem de um curso de Python, aulas antigas que não foram atualizadas. No geral, os cursos não são muito interessantes e o conteúdo não justifica o preço cobrado. Projetos como a "Pokedex" ou "Agenda" não têm nada a ver com a proposta do curso e poderiam ser substituídos por projetos mais alinhados aos temas abordados. Esses exemplos deixam claro que a plataforma carece de coerência e atualização nos seus materiais.
+
+#### Cursos oferecidos pela Solyd
+
+#### 🚀 **Pentest do Zero ao Profissional v2024**
+
+#### 📱 **Android Pentester**
+
+#### 📡 **Wireless Pentester**
+
+#### 💻 **Hardware Hacking**
+
+#### 🐍 **Python Profissional na Prática**
+
+#### 🔐 **Curso de Conscientização de Segurança Cibernética**
+
+#### 🛠️ **Introdução ao Hacking e Pentest 2.0**
+
+#### 🐍 **Python Básico**
+
+
+[**Desec Security**](https://www.desecsecurity.com/home)
+
+<div align="center">
+  <img src="https://media-exp1.licdn.com/dms/image/C4E0BAQHCmftccXl7sw/company-logo_200_200/0/1620419908575?e=2147483647&v=beta&t=g980FSCWEwlgA2-iCMZFSAtmGiua8OeMJCbr4UXfIvs" alt="" width="200" />
+</div>
+
+A Desec Security oferece uma variedade de cursos online focados em pentest e segurança cibernética. A certificação deles tem um bom peso na área e, em particular, gosto dos cursos oferecidos, pois possuem uma boa didática. No entanto, acredito que os cursos de C e Python para "pentesters" poderiam ser melhores:
+
+#### Cursos Oferecidos pela Desec Security
+
+#### 💻 **Introdução ao Pentest na Prática**
+
+#### 🛡️ **Pentest Profissional**
+
+#### 🔥 **Pentest Experience V2**
+
+#### 🎓 **Academy Black**
+
+#### 🌐 **Web Dev Security**
+
+#### 📡 **WiFi Hacking Enterprise 2.0**
+
+#### 🧠 **Smart Recon para Pentest**
+
+#### 🚨 **Evasão de Defesas**
+
+#### 📱 **Pentest Mobile**
+
+[**Universidade Hacker**]()
