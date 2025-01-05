@@ -2015,6 +2015,7 @@ Comprei todos os cursos de 2024 dessa plataforma e, apesar de eles fazerem uma b
 
 #### 🐍 **Python Básico**
 
+---
 
 [**Desec Security**](https://www.desecsecurity.com/home)
 
@@ -2044,4 +2045,8 @@ A Desec Security oferece uma variedade de cursos online focados em pentest e seg
 
 #### 📱 **Pentest Mobile**
 
-[**Universidade Hacker**]()
+---
+
+[**Universidade Hacker**](https://hackingnaweb.com/)
+
+Particularmente é o que eu mais gosto, professor Rafa é um cara fenomenal, que realmente compaartilha conhecimento avançada de sua experiencia 
