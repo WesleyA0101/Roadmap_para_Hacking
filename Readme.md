@@ -2072,3 +2072,4 @@ Adquiri acesso à plataforma, incluindo todos os livros, e considero a HackOne i
 Recomendo a plataforma especialmente para iniciantes, pois ela proporciona uma base sólida e abrangente para quem está começando.
 
 
+> Com o tempo, irei adicionar mais conteúdos e tópicos à medida que tiver novas ideias. Também planejo expandir os conteúdos já existentes nos tópicos.
