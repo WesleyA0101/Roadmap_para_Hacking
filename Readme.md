@@ -1981,7 +1981,7 @@ Existem várias certificações e plataformas que dizem ensinar pentest. Aqui, v
 - **Descrição**: Oferecida pela Solyd Offensive Security, é uma certificação prática focada em técnicas de exploração de vulnerabilidades e testes de penetração em redes, aplicativos e infraestrutura.
 
 <div align="center">
-  <img src="https://imgv2-2-f.scribdassets.com/img/document/745636534/original/3a99fc71a6/1727629572?v=1" alt="" width="200" />
+  <img src="https://imgs.search.brave.com/zN3OwX4DUHk5ZU2-d4_7umREpEUqfRSQL0zXMXj3mac/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZWFkLmd1cnUvNzQv/bWVkaWEvcHVibGlj/L3dlYnNpdGVzL3Np/dGVzLXNvbHlkL3Bl/bnRlc3QtbWFzay53/ZWJw" alt="" width="200" />
 </div>
 
 
