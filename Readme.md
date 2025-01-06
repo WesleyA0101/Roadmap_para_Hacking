@@ -2049,4 +2049,26 @@ A Desec Security oferece uma variedade de cursos online focados em pentest e seg
 
 [**Universidade Hacker**](https://hackingnaweb.com/)
 
-Particularmente é o que eu mais gosto, professor Rafa é um cara fenomenal, que realmente compaartilha conhecimento avançada de sua experiencia 
+Particularmente, é o que eu mais gosto. O professor Rafa é um profissional fenomenal, que realmente compartilha conhecimentos avançados adquiridos ao longo de sua vasta experiência. Ele é excelente no que faz. Sua plataforma de cursos é constantemente atualizada, com novas aulas postadas regularmente e sem conteúdo reciclado.
+
+Recomendo que você tenha um conhecimento prévio na área, especialmente em programação, pois ele adota uma abordagem técnica e explora bastante conteúdo de baixo nível (low-level).
+
+Além disso, ele mantém um blog onde publica diversos conteúdos interessantes, ampliando ainda mais as oportunidades de aprendizado para seus alunos e seguidores.
+
+[**Hacking na Web**](https://hackingnaweb.com/)
+
+---
+
+[**HackOne**](https://hackone.com.br/):
+
+<div align="center">
+  <img src="https://imgs.search.brave.com/qGkwHIYd8Htj1P5HVE6sLcduUQmkW-FIZU1zFgzOYhQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9oYWNr/b25lLmNvbS5ici93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMy8w/Ni9UaXBvLUhhY2tv/bmUtd2hpdGUtMS5z/dmc" alt="" width="200" />
+</div>
+
+A HackOne é uma plataforma liderada pelo professor Lucas Palma, oferecendo cursos nas áreas de redes de computadores (com módulos focados em infraestrutura CISCO), cibersegurança, Mikrotik, Cloud, e também disponibiliza livros próprios.
+
+Adquiri acesso à plataforma, incluindo todos os livros, e considero a HackOne impressionante. O empenho dos professores é incrível; eles realmente colocam tudo de si nas aulas para oferecer um ensino de alta qualidade.
+
+Recomendo a plataforma especialmente para iniciantes, pois ela proporciona uma base sólida e abrangente para quem está começando.
+
+
