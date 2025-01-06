@@ -1984,6 +1984,7 @@ Existem várias certificações e plataformas que dizem ensinar pentest. Aqui, v
   <img src="https://imgs.search.brave.com/zN3OwX4DUHk5ZU2-d4_7umREpEUqfRSQL0zXMXj3mac/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZWFkLmd1cnUvNzQv/bWVkaWEvcHVibGlj/L3dlYnNpdGVzL3Np/dGVzLXNvbHlkL3Bl/bnRlc3QtbWFzay53/ZWJw" alt="" width="200" />
 </div>
 
+---
 
 #### 🛡️ Plataformas de ensino
 
