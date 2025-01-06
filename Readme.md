@@ -2071,5 +2071,15 @@ Adquiri acesso à plataforma, incluindo todos os livros, e considero a HackOne i
 
 Recomendo a plataforma especialmente para iniciantes, pois ela proporciona uma base sólida e abrangente para quem está começando.
 
+---
 
 > Com o tempo, irei adicionar mais conteúdos e tópicos à medida que tiver novas ideias. Também planejo expandir os conteúdos já existentes nos tópicos.
+
+---
+
+<div align="center" style="display: flex; justify-content: center; align-items: center;">
+  <img src="https://i.pinimg.com/originals/05/30/72/053072dabbab054bea035451239fe81b.png" alt="GNU Linux Icon" width="150" height="150"/>
+  <a href="https://archlinux.org" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/archlinux/archlinux-original.svg" title="Arch Linux" alt="Arch Linux" width="50" height="50"/>
+  </a>
+</div>
