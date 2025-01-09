@@ -2063,7 +2063,7 @@ Além disso, ele mantém um blog onde publica diversos conteúdos interessantes,
 [**HackOne**](https://hackone.com.br/):
 
 <div align="center">
-  <img src="https://imgs.search.brave.com/qGkwHIYd8Htj1P5HVE6sLcduUQmkW-FIZU1zFgzOYhQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9oYWNr/b25lLmNvbS5ici93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMy8w/Ni9UaXBvLUhhY2tv/bmUtd2hpdGUtMS5z/dmc" alt="" width="200" />
+  <img src="https://th.bing.com/th/id/OIP.hJRI6_i8TB5LVSa8Srx4FQHaHa?w=178&h=180&c=7&r=0&o=5&pid=1.7" alt="" width="200" />
 </div>
 
 A HackOne é uma plataforma liderada pelo professor Lucas Palma, oferecendo cursos nas áreas de redes de computadores (com módulos focados em infraestrutura CISCO), cibersegurança, Mikrotik, Cloud, e também disponibiliza livros próprios.
