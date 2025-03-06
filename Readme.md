@@ -209,7 +209,7 @@ A plataforma de cursos de Bruno Fraga sofreu vários ataques, resultando no vaza
 ## 🤡 **FocoemSec/Antonio Dias** 
 
 <div align="center">
-  <img src="https://yt3.googleusercontent.com/G0dhJtDs4pluTaQDr7GBapVsCpL-MNQl9puLAlypRcjR8hcLL18qbtGgLAMU9E6nb4qr8QOSpw=s900-c-k-c0x00ffffff-no-rj" width="190" alt="Antonio" />
+  <img src="https://yt3.googleusercontent.com/AKypMh5ZwrpVajgB6UJSGQW9Ul-Kk4IiAWGfWWLwu2HvAKlmP8Dzg7eNAmzRn9vVqmWLE3GZ5xk=s900-c-k-c0x00ffffff-no-rj" width="190" alt="Antonio" />
 </div>
 
 Antonio Dias é uma cópia do Bruno Fraga. Ambos são parecidos, até porque pessoas do tipo deles, que vendem cursos rasos, sem conteúdo e conhecimento nenhum, mais para lucrar em cima de leigos, não têm muitas diferenças. Por conta do seu conhecimento raso, impedindo-os de terem alguma diferença significativa, não há nada de diferente para eu falar desse cara, além de deixar destacado aqui: pessoas com as quais vocês **não devem gastar seu tempo e dinheiro**. Basicamente, as mesmas coisas:
