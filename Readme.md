@@ -206,25 +206,6 @@ A plataforma de cursos de Bruno Fraga sofreu vários ataques, resultando no vaza
 
 👉 [**Reclamações no Reclame Aqui sobre os treinamentos do Bruno Fraga**](https://www.reclameaqui.com.br/empresa/bruno-fraga-treinamentos-e-consultoria/lista-reclamacoes/)
 
-## 🤡 **FocoemSec/Antonio Dias** 
-
-<div align="center">
-  <img src="https://yt3.googleusercontent.com/AKypMh5ZwrpVajgB6UJSGQW9Ul-Kk4IiAWGfWWLwu2HvAKlmP8Dzg7eNAmzRn9vVqmWLE3GZ5xk=s900-c-k-c0x00ffffff-no-rj" width="190" alt="Antonio" />
-</div>
-
-Antonio Dias é uma cópia do Bruno Fraga. Ambos são parecidos, até porque pessoas do tipo deles, que vendem cursos rasos, sem conteúdo e conhecimento nenhum, mais para lucrar em cima de leigos, não têm muitas diferenças. Por conta do seu conhecimento raso, impedindo-os de terem alguma diferença significativa, não há nada de diferente para eu falar desse cara, além de deixar destacado aqui: pessoas com as quais vocês **não devem gastar seu tempo e dinheiro**. Basicamente, as mesmas coisas:
-
-- Cursos de má qualidade
-- Promessas falsas
-- Não sabe realmente hacking
-- Faz videozinhos de ferramentas prontas e não sabe nem o que está rodando
-- Supostamente hackeado em live
-- Vazamento de dados de sua plataforma
-
-Impressionante como esses marketeiros mentirosos são iguais. Deviam trabalhar como palhaços; nessa profissão, eles iriam se encaixar direitinho. Ou não, vá que o Bruno Fraga diga que não precisa ser engraçado para ser palhaço. O curso desse tipo de pessoa é como um golpe do **Urubu do Pix**.
-
-Tem vários assim, mas esses dois são os principais. Conforme o tempo, poderei adicionar mais sobre aqui.
-
 
 ---
 
