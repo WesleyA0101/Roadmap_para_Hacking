@@ -37,6 +37,18 @@
 19. [🌍 Hacktivismo](#19---hacktivismo)  
 20. [🧩 Malware](#20---malware)
 21. [🎓 Certificações e plataformas de ensino](#21---Certificações-e-plataformas-de-ensino)
+  
+22. [⚖️ Ética, Legislação, Escopo e Responsabilidade](#22---ética-legislação-escopo-e-responsabilidade)  
+23. [🧭 Metodologia de Pentest e Avaliação de Segurança](#23---metodologia-de-pentest-e-avaliação-de-segurança)  
+24. [🧱 Segurança de Aplicações, APIs e Desenvolvimento Seguro](#24---segurança-de-aplicações-apis-e-desenvolvimento-seguro)  
+25. [🪟 Active Directory e Segurança Windows Corporativa](#25---active-directory-e-segurança-windows-corporativa)  
+26. [☁️ Cloud, Virtualização, Containers e DevSecOps](#26---cloud-virtualização-containers-e-devsecops)  
+27. [🛡️ Blue Team, SOC, Threat Hunting e Resposta a Incidentes](#27---blue-team-soc-threat-hunting-e-resposta-a-incidentes)  
+28. [🌐 OSINT e Inteligência de Ameaças](#28---osint-e-inteligência-de-ameaças)  
+29. [🧾 Forense Digital e DFIR](#29---forense-digital-e-dfir)  
+30. [📱 Segurança Mobile e Android](#30---segurança-mobile-e-android)  
+31. [🧪 Laboratório, CTFs e Construção de Portfólio](#31---laboratório-ctfs-e-construção-de-portfólio)  
+32. [🧭 Metodologia de Estudo e Evolução Técnica](#32---metodologia-de-estudo-e-evolução-técnica)
 
 ---
 
@@ -384,6 +396,36 @@ O movimento de **Software Livre** não é apenas uma questão técnica, mas envo
 
 ---
 
+
+
+#### 📜 **Licenças, governança e cadeia de suprimentos de software**
+
+Além de saber que o código é aberto, você precisa entender o que a licença permite e quais obrigações ela cria. Código disponível publicamente não significa ausência de direitos autorais ou liberdade irrestrita para copiar e redistribuir.
+
+- **Licenças permissivas:** MIT, BSD e Apache 2.0.
+- **Copyleft:** GPL e outras licenças que estabelecem condições para a distribuição de versões derivadas.
+- **Bibliotecas e dependências:** verifique licenças, versões, origem e manutenção dos pacotes utilizados.
+- **Contribuição:** leia o processo de contribuição e as regras de cada projeto.
+- **Proveniência:** procure entender de onde veio o código e quem o mantém.
+- **Reprodutibilidade:** estude como reconstruir um software a partir de fontes e dependências identificadas.
+- **Cadeia de suprimentos:** considere o risco de bibliotecas comprometidas, pacotes falsificados e dependências abandonadas.
+
+#### 🔍 **Como analisar um projeto open source**
+
+1. Leia o `README` e a documentação oficial.
+2. Verifique a licença e o arquivo `LICENSE`.
+3. Observe a atividade recente do repositório.
+4. Consulte issues, pull requests e histórico de versões.
+5. Identifique dependências e ferramentas de compilação.
+6. Leia o código das partes que são importantes para sua finalidade.
+7. Teste o projeto em ambiente isolado antes de utilizá-lo em produção.
+
+Referências:
+- [Choose a License](https://choosealicense.com/): explicação de licenças de software.
+- [Open Source Initiative](https://opensource.org/licenses): definição e licenças open source.
+- [Free Software Foundation - Licenses](https://www.gnu.org/licenses/license-list.html): lista de licenças e compatibilidade.
+- [OpenSSF](https://openssf.org/): iniciativas de segurança da cadeia de suprimentos de software.
+
 ### 🌍 **Redes de Computadores** 🌍
 
 Redes de Computadores são fundamentais no mundo moderno, pois conectam dispositivos e possibilitam a troca de informações e recursos. Elas formam a espinha dorsal da internet, das comunicações empresariais, e da infraestrutura digital global. A compreensão das redes é essencial para qualquer técnico, seja ético ou não, pois elas são o ponto de entrada e o mecanismo por meio do qual muitos ataques e defesas acontecem. Vamos explorar o que são as redes de computadores e por que aprender sobre elas é crucial para hacking.
@@ -455,6 +497,69 @@ O conhecimento de redes de computadores é essencial para hacking por várias ra
 > *Irei adicionar cursos de forma gratuita para vocês também, pelos canais do Telegram, para quem não tem condições de pagar um curso no momento, mas deseja aprender redes de computadores.*
 
 ---
+
+
+
+#### 🧭 **Camadas, endereçamento e protocolos: aprofunde os fundamentos**
+
+Você precisa entender como os dados saem de um dispositivo, atravessam diferentes equipamentos e chegam ao destino. O modelo OSI é uma referência didática, enquanto a pilha TCP/IP é utilizada na prática para explicar a comunicação das redes.
+
+- **Camada física:** cabos, conectores, sinais, rádio, fibra óptica e características de transmissão.
+- **Enlace:** endereços MAC, Ethernet, quadros, switches e VLANs.
+- **Rede:** IPv4, IPv6, endereçamento, sub-redes, roteamento e ICMP.
+- **Transporte:** TCP, UDP, portas, conexões, retransmissão e controle de fluxo.
+- **Aplicação:** DNS, HTTP, HTTPS, SSH, SMTP, DHCP, FTP/SFTP e outros protocolos.
+
+#### 🌐 **Protocolos que você precisa conhecer**
+
+- **ARP:** resolução de endereços IPv4 em endereços MAC dentro da rede local.
+- **DHCP:** distribuição automática de configurações de rede.
+- **DNS:** resolução de nomes para registros e endereços.
+- **ICMP:** mensagens de controle e diagnóstico da rede.
+- **TCP:** transporte orientado à conexão.
+- **UDP:** transporte sem conexão, utilizado por diferentes serviços.
+- **NTP:** sincronização de horário.
+- **SSH:** administração remota segura.
+- **TLS:** proteção criptográfica de comunicações.
+- **SNMP:** monitoramento e gerenciamento de dispositivos de rede.
+- **SMTP, IMAP e POP3:** envio e acesso a mensagens de e-mail.
+
+#### 🧮 **Endereçamento e subnetting**
+
+Estude endereços IPv4 e IPv6, máscara de rede, CIDR, gateway, broadcast, endereços privados e públicos, loopback, link-local, NAT e divisão de redes. Você deve conseguir olhar para uma rede como `192.168.10.0/24` e explicar o que a notação representa, quais endereços pertencem à sub-rede e como os dispositivos se comunicam com outras redes.
+
+#### 🔀 **Switching, routing e segmentação**
+
+- Diferença entre switch e roteador.
+- Tabelas MAC e tabelas de roteamento.
+- VLANs e trunking.
+- Roteamento estático e dinâmico.
+- ACLs e regras de firewall.
+- NAT e PAT.
+- Segmentação de rede.
+- Redes sem fio e autenticação Wi-Fi.
+- VPN site-to-site e acesso remoto.
+
+#### 🔬 **Análise de tráfego**
+
+Aprenda a interpretar pacotes, fluxos e conexões. Não basta abrir o Wireshark e observar linhas coloridas.
+
+Pratique:
+- Identificar o handshake TCP.
+- Reconhecer consultas e respostas DNS.
+- Comparar tráfego HTTP e HTTPS.
+- Identificar retransmissões e conexões interrompidas.
+- Filtrar tráfego por endereço, porta e protocolo.
+- Entender o que é possível e o que não é possível observar em tráfego criptografado.
+- Correlacionar uma captura com logs de firewall e do sistema operacional.
+
+#### 📚 **Materiais adicionais**
+
+- [Cisco Networking Academy](https://www.netacad.com/): cursos e materiais de redes.
+- [Cloudflare Learning Center](https://www.cloudflare.com/learning/): conceitos de redes, DNS, CDN e segurança.
+- [Beej's Guide to Network Concepts](https://beej.us/guide/bgnet/): fundamentos de programação e comunicação em rede.
+- [Wireshark Documentation](https://www.wireshark.org/docs/): documentação oficial do analisador de protocolos.
+- [RFC Editor](https://www.rfc-editor.org/): especificações oficiais de protocolos da Internet.
 
 ### 8 - 💻 Programação
 
@@ -619,6 +724,59 @@ Muitos hackers usam ferramentas existentes para seus testes de penetração, mas
 
 ---
 
+
+
+#### 🧠 **Conteúdos que você precisa dominar antes de depender de ferramentas prontas**
+
+Aprender uma linguagem não é decorar comandos e copiar códigos do GitHub. É entender como o programa recebe dados, processa informações, utiliza memória, conversa com o sistema operacional e trata erros. Quando você entende isso, consegue ler uma ferramenta, identificar limitações, adaptar o código e descobrir o que está acontecendo por trás dela.
+
+- **Lógica de programação:** variáveis, constantes, operadores, condições, laços, funções, recursividade e decomposição de problemas.
+- **Estruturas de dados:** arrays, listas, pilhas, filas, listas encadeadas, árvores, tabelas hash, heaps e grafos.
+- **Algoritmos:** busca, ordenação, percurso, análise de complexidade e escolha de estruturas adequadas.
+- **Tratamento de erros:** validação de entrada, exceções, códigos de retorno, logs e recuperação de falhas.
+- **Depuração:** breakpoints, inspeção de variáveis, pilha de chamadas, rastreamento de execução e análise de dumps.
+- **Concorrência:** processos, threads, mutexes, semáforos, condições de corrida e deadlocks.
+- **Entrada e saída:** arquivos, diretórios, sockets, streams, serialização e formatos binários.
+- **Bibliotecas e APIs:** entender documentação, parâmetros, retorno, dependências e limitações de cada função.
+
+#### 🧩 **Linguagens que fazem sentido para a área**
+
+Não existe uma linguagem mágica que transforma alguém em hacker. Cada linguagem resolve determinados problemas, e o ideal é aprender os fundamentos antes de tentar estudar todas ao mesmo tempo.
+
+| Linguagem | O que estudar e onde ela aparece |
+|---|---|
+| **C** | Memória, ponteiros, compilação, processos, chamadas de sistema, bibliotecas, redes, desenvolvimento de ferramentas e análise de binários. |
+| **Assembly** | Instruções da CPU, registradores, pilha, chamadas de função, convenções de chamada e leitura de código descompilado. |
+| **Python** | Automação, tratamento de dados, sockets, APIs, análise de arquivos, criação de ferramentas e prototipagem. |
+| **Bash** | Automação no Linux, pipelines, gerenciamento de arquivos, processos e administração de sistemas. |
+| **PowerShell** | Administração do Windows, automação, consultas ao sistema, logs e ambientes corporativos. |
+| **JavaScript** | Funcionamento do navegador, DOM, aplicações web, Node.js, APIs e segurança client-side. |
+| **SQL** | Modelagem de dados, consultas, junções, permissões, transações e segurança de bancos de dados. |
+| **Go** | Ferramentas de rede, serviços, concorrência e aplicações distribuídas. |
+| **Rust** | Programação de sistemas, segurança de memória, ferramentas de baixo nível e aplicações de alto desempenho. |
+
+#### 🧪 **Projetos para provar que você entendeu programação**
+
+1. Criar um analisador de logs que leia arquivos, filtre eventos e gere relatórios.
+2. Desenvolver um cliente e um servidor TCP simples para entender sockets.
+3. Criar um programa em C que leia e interprete um formato de arquivo próprio.
+4. Desenvolver um monitor de processos que mostre PID, uso de memória e estado.
+5. Criar um analisador de cabeçalhos HTTP usando uma API pública ou um servidor local.
+6. Escrever testes automatizados para validar entradas e saídas.
+7. Reimplementar uma funcionalidade pequena de uma ferramenta conhecida, documentando o funcionamento.
+
+**O objetivo não é criar uma ferramenta enorme para postar no GitHub.** É conseguir explicar cada linha, cada biblioteca utilizada, os dados recebidos, as limitações do programa e os erros que podem acontecer.
+
+#### 📚 **Materiais adicionais**
+
+- [CS50x - Harvard](https://cs50.harvard.edu/x/): fundamentos de ciência da computação, algoritmos e programação.
+- [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/): programação de redes e sockets.
+- [The Linux Programming Interface](https://man7.org/tlpi/): referência sobre programação de sistemas Linux.
+- [Python Documentation](https://docs.python.org/3/): documentação oficial do Python.
+- [C Programming Language - cppreference](https://en.cppreference.com/w/c): referência da linguagem C.
+- [Compiler Explorer](https://godbolt.org/): comparar código-fonte com o assembly gerado por diferentes compiladores.
+- [Exercism](https://exercism.org/): exercícios de programação e prática com diferentes linguagens.
+
 ### 9 - 🖥️ Sistemas Operacionais
 
 **A Importância dos Sistemas Operacionais no Mundo do Hacking**
@@ -734,11 +892,127 @@ ou controle do host.
 
 ---
 
+
+
+#### ⚙️ **O que estudar dentro de um Sistema Operacional**
+
+Não basta saber abrir o terminal, instalar pacotes e trocar o papel de parede. Um sistema operacional administra os recursos da máquina e é responsável por intermediar a comunicação entre programas e hardware. Para entender segurança, você precisa saber o que acontece nos bastidores.
+
+- **Kernel e espaço de usuário:** diferença entre código executado no kernel e aplicações executadas em user space.
+- **Processos e threads:** criação, estados, escalonamento, sinais, identificadores e comunicação entre processos.
+- **Gerenciamento de memória:** memória virtual, paginação, segmentação, heap, stack e proteção de memória.
+- **Sistema de arquivos:** partições, montagem, inodes, permissões, links simbólicos, journaling e atributos.
+- **Usuários e grupos:** privilégios, autenticação, autorização, sudo, UAC e políticas de acesso.
+- **Serviços e inicialização:** systemd, serviços do Windows, bootloader, init e inicialização do sistema.
+- **Logs e auditoria:** journal, syslog, Event Viewer, trilhas de auditoria e registros de autenticação.
+- **Drivers e módulos:** comunicação entre o sistema operacional e dispositivos.
+- **Chamadas de sistema:** como um programa solicita serviços ao kernel.
+- **Virtualização:** máquinas virtuais, hipervisores, snapshots, redes virtuais e isolamento.
+
+#### 🐧 **Linux: assuntos que merecem atenção**
+
+- Hierarquia de diretórios: `/`, `/etc`, `/home`, `/var`, `/usr`, `/opt`, `/tmp`, `/dev`, `/proc` e `/sys`.
+- Permissões tradicionais e ACLs.
+- Proprietários, grupos, capabilities e privilégios.
+- Processos, sinais, jobs e gerenciamento de serviços.
+- Gerenciamento de pacotes e repositórios.
+- Shell, variáveis de ambiente, pipes, redirecionamento e substituição de comandos.
+- Logs, auditoria, cron e timers.
+- Namespaces, cgroups, seccomp e mecanismos de isolamento.
+- Módulos do kernel e parâmetros de inicialização.
+- Compilação de programas e instalação a partir do código-fonte.
+
+Comandos que vale conhecer e entender, não apenas decorar: `ps`, `top`, `htop`, `free`, `vmstat`, `iostat`, `lsof`, `ss`, `ip`, `journalctl`, `systemctl`, `find`, `grep`, `awk`, `sed`, `strace`, `ltrace`, `mount`, `lsblk`, `fdisk` e `dmesg`.
+
+#### 🪟 **Windows: não ignore esse sistema**
+
+O Windows está presente em muitos ambientes corporativos. Um profissional que conhece somente Linux deixa uma parte enorme da infraestrutura sem entender.
+
+Estude:
+
+- Arquitetura do Windows, kernel, processos, serviços e drivers.
+- NTFS, permissões, ACLs, registro do Windows e políticas locais.
+- Usuários, grupos, tokens de acesso e privilégios.
+- PowerShell e Windows Terminal.
+- Windows Defender, Firewall e políticas de segurança.
+- Event Viewer, logs de segurança e auditoria.
+- UAC, Credential Manager, DPAPI e proteção de credenciais.
+- Serviços, tarefas agendadas, inicialização e persistência — sempre estudados em laboratório controlado.
+- Windows Server e Active Directory.
+
+#### 📚 **Materiais adicionais**
+
+- [ArchWiki](https://wiki.archlinux.org/): documentação técnica para Linux.
+- [Linux man-pages](https://man7.org/linux/man-pages/): documentação de chamadas de sistema e interfaces do Linux.
+- [Linux Journey](https://linuxjourney.com/): fundamentos de Linux.
+- [Windows Server Documentation](https://learn.microsoft.com/en-us/windows-server/): documentação oficial do Windows Server.
+- [Microsoft Learn](https://learn.microsoft.com/): trilhas oficiais sobre Windows, PowerShell e administração.
+- [OSDev Wiki](https://wiki.osdev.org/): desenvolvimento e arquitetura de sistemas operacionais.
+
 ### 10 - 🔧 Low-Level - "Bit a Bit"
 
 Para aprender sobre, acesse meu roadmap para low-level: [**Bitwise Journey: Rumo à Programação de Baixo Nível**](https://github.com/WesleyA0101/Roadmap__Bitwise-Journey-Rumo-Programacao-de-Baixo-Nivel)
 
 ---
+
+
+
+#### 🧬 **Conteúdos essenciais de baixo nível**
+
+Low-level é onde você começa a abandonar a visão superficial de um programa. Em vez de enxergar somente uma função retornando um resultado, você passa a observar instruções, registradores, endereços, pilha, memória e a forma como o processador executa o código.
+
+- **Sistemas numéricos:** binário, decimal, hexadecimal e conversões entre bases.
+- **Operações bit a bit:** AND, OR, XOR, NOT, deslocamentos e máscaras.
+- **Representação de dados:** inteiros com e sem sinal, complemento de dois, ponto flutuante, ASCII e Unicode.
+- **Arquitetura de processadores:** registradores, unidade lógica e aritmética, unidade de controle, cache e barramentos.
+- **Endianness:** representação little-endian e big-endian.
+- **Assembly:** instruções, operandos, saltos, chamadas, registradores e convenções de chamada.
+- **Memória:** stack, heap, segmentos de dados, seção de código e memória virtual.
+- **ABI:** convenções de chamada, passagem de parâmetros, retorno e organização de binários.
+- **Formatos executáveis:** ELF no Linux, PE no Windows e Mach-O no macOS.
+- **Chamadas de sistema:** transição entre user space e kernel space.
+
+#### 🧱 **Estrutura de um programa na memória**
+
+É importante entender que um executável não é simplesmente um arquivo que o sistema abre por mágica. Ele possui uma estrutura, informações de carregamento e regiões com finalidades diferentes.
+
+- **Text/Code:** região que contém instruções executáveis.
+- **Data:** variáveis globais e estáticas inicializadas.
+- **BSS:** variáveis globais e estáticas não inicializadas explicitamente.
+- **Heap:** área utilizada para alocações dinâmicas.
+- **Stack:** área utilizada para chamadas de função, variáveis locais e informações de execução.
+
+Também estude o que acontece quando uma função é chamada, como o endereço de retorno é armazenado, como os parâmetros são passados e como a função devolve o controle ao chamador.
+
+#### 🛠️ **Ferramentas para estudar Low-Level**
+
+- **GDB:** depuração de programas e inspeção de registradores e memória.
+- **LLDB:** depurador utilizado em diferentes plataformas.
+- **objdump:** visualização de informações e instruções de arquivos objeto.
+- **readelf:** análise de estruturas de arquivos ELF.
+- **nm:** identificação de símbolos.
+- **strace:** observação de chamadas de sistema em Linux.
+- **ltrace:** observação de chamadas a bibliotecas.
+- **Ghidra:** análise e engenharia reversa.
+- **Compiler Explorer:** comparação entre código-fonte e assembly.
+
+#### 🧪 **Prática recomendada**
+
+Compile pequenos programas em C com diferentes opções de otimização e compare o assembly gerado. Depois, execute esses programas no depurador e observe como os valores mudam nos registradores e na memória. Faça isso com programas próprios, crackmes educacionais ou desafios criados especificamente para laboratório.
+
+- Criar um programa que realize operações com bits.
+- Comparar uma função em C com seu resultado em assembly.
+- Inspecionar um executável ELF com `readelf` e `objdump`.
+- Acompanhar uma chamada de função no GDB.
+- Analisar como variáveis globais, locais e dinâmicas ocupam memória.
+
+#### 📚 **Materiais adicionais**
+
+- [OpenSecurityTraining2](https://ost2.fyi/): cursos técnicos de arquitetura, assembly e segurança.
+- [x86-64 Assembly Language Programming with Ubuntu](https://github.com/0xAX/asm): material de assembly x86-64.
+- [System V ABI](https://gitlab.com/x86-psABIs/x86-64-ABI): documentação da ABI x86-64.
+- [ELF Specification](https://refspecs.linuxfoundation.org/elf/elf.pdf): especificação do formato ELF.
+- [GDB Documentation](https://sourceware.org/gdb/documentation/): documentação do depurador.
 
 ### 11 - ➗ Matemática
 
@@ -826,6 +1100,38 @@ A matemática é usada para entender e desmontar sistemas binários, analisando 
 - Resolva problemas em sites como [Project Euler](https://projecteuler.net/).
 
 ---
+
+
+
+#### 🧮 **Outros assuntos de matemática que fazem diferença**
+
+Não é necessário se tornar matemático para trabalhar com cibersegurança, mas ignorar matemática pode dificultar bastante o entendimento de criptografia, algoritmos, análise de dados e baixo nível.
+
+- **Lógica proposicional:** proposições, conectivos, tabelas-verdade, equivalência e implicação.
+- **Álgebra booleana:** operações lógicas, simplificação e circuitos.
+- **Matemática discreta:** conjuntos, relações, funções, combinatória e grafos.
+- **Aritmética modular:** congruências, restos, inversos modulares e aplicações criptográficas.
+- **Teoria dos números:** divisibilidade, números primos, máximo divisor comum e fatoração.
+- **Probabilidade:** eventos, distribuições e cálculo de chances.
+- **Estatística:** média, mediana, desvio padrão, correlação e interpretação de dados.
+- **Álgebra linear:** vetores, matrizes e operações matriciais, úteis em computação gráfica e aprendizado de máquina.
+- **Análise de algoritmos:** complexidade temporal e espacial, Big O e limites de escalabilidade.
+
+#### 💻 **Aplicação na prática**
+
+- Utilizar operações bitwise para manipular flags e permissões.
+- Entender por que funções hash produzem distribuições e colisões.
+- Calcular espaços de busca em senhas e chaves.
+- Entender a complexidade de algoritmos de busca e ordenação.
+- Interpretar estatísticas de tráfego e eventos em logs.
+- Compreender aritmética modular em algoritmos criptográficos.
+
+#### 📚 **Materiais adicionais**
+
+- [MIT OpenCourseWare - Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/): matemática discreta aplicada à computação.
+- [Khan Academy](https://pt.khanacademy.org/): matemática, álgebra, estatística e probabilidade.
+- [Project Euler](https://projecteuler.net/): problemas que combinam programação e matemática.
+- [Brilliant](https://brilliant.org/): exercícios de lógica e matemática, com parte do conteúdo pago.
 
 ### 12 - 🔒 Criptografia
 
@@ -944,6 +1250,60 @@ O valor hash gerado para a senha com salt será diferente de outro usuário com 
  
 
 ---
+
+
+
+#### 🗝️ **Conceitos que precisam ser separados**
+
+É comum ver pessoas tratando hash, criptografia, codificação e assinatura digital como se fossem a mesma coisa. Não são. Cada mecanismo resolve um problema diferente.
+
+- **Codificação:** transforma dados para permitir representação ou transporte. Base64, por exemplo, não protege informações.
+- **Criptografia:** protege a confidencialidade, permitindo que dados sejam recuperados com a chave apropriada.
+- **Hash:** produz um resumo de tamanho definido a partir de uma entrada; não é um mecanismo de descriptografia.
+- **MAC/HMAC:** permite verificar integridade e autenticidade utilizando um segredo compartilhado.
+- **Assinatura digital:** permite verificar integridade e autoria por meio de um mecanismo assimétrico.
+- **KDF:** deriva chaves a partir de uma entrada, como uma senha ou segredo.
+- **Salt:** valor adicional, normalmente único por registro, utilizado em processos de derivação ou hash de senhas.
+- **Nonce/IV:** valor utilizado por determinados modos criptográficos para garantir propriedades de segurança; suas regras de reutilização dependem do algoritmo.
+
+#### 🔐 **Criptografia simétrica e assimétrica**
+
+Na criptografia simétrica, a mesma chave secreta é utilizada para cifrar e decifrar. Algoritmos como AES são exemplos conhecidos.
+
+Na criptografia assimétrica, existe um par de chaves relacionadas: uma pública e outra privada. Esse modelo aparece em troca de chaves, assinaturas digitais e certificados. RSA e curvas elípticas são famílias de algoritmos que você deve conhecer conceitualmente.
+
+Estude também os modos de operação e a autenticação dos dados. Não basta saber o nome do algoritmo: é preciso entender como ele é utilizado e quais erros de implementação podem comprometer a proteção.
+
+#### 🏛️ **PKI, certificados digitais e TLS**
+
+- Autoridades certificadoras (CA).
+- Certificados X.509.
+- Chaves públicas e privadas.
+- Cadeia de confiança e validação de certificados.
+- Revogação e expiração de certificados.
+- Handshake TLS e negociação de parâmetros.
+- Diferenças entre autenticação do servidor e autenticação mútua.
+- Erros de validação de certificados e configurações inseguras.
+
+#### 🚨 **Erros que você precisa reconhecer**
+
+- Utilizar algoritmos obsoletos ou inadequados.
+- Reutilizar nonces em contextos nos quais isso compromete a segurança.
+- Armazenar senhas em texto puro.
+- Utilizar hash rápido e genérico para armazenamento de senhas, sem uma função apropriada para esse propósito.
+- Criar criptografia própria sem conhecimento suficiente.
+- Deixar chaves privadas expostas no código-fonte, em logs ou repositórios.
+- Não verificar certificados e assinaturas corretamente.
+- Confundir Base64 com criptografia.
+
+Para armazenamento de senhas, estude funções apropriadas, como Argon2id, scrypt, bcrypt e PBKDF2, considerando parâmetros, custo computacional e recomendações atuais. Não invente um algoritmo próprio para proteger dados.
+
+#### 📚 **Materiais adicionais**
+
+- [Crypto 101](https://crypto101.io/): introdução à criptografia.
+- [Cryptopals](https://cryptopals.com/): desafios práticos para estudar conceitos criptográficos.
+- [OWASP Cryptographic Storage Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html): boas práticas de armazenamento criptográfico.
+- [NIST Computer Security Resource Center](https://csrc.nist.gov/): publicações e referências técnicas sobre criptografia.
 
 ### 13 - 🌐 Web
 
@@ -1122,6 +1482,80 @@ A Web é um dos alvos mais comuns no hacking. Aqui está o porquê:
 
 ---
  
+
+
+#### 🧭 **HTTP e HTTPS: aprofunde o funcionamento**
+
+Para estudar segurança Web, você precisa conseguir olhar para uma requisição e entender o que está acontecendo, sem depender exclusivamente de uma ferramenta gráfica.
+
+Estude:
+
+- Métodos HTTP: GET, POST, PUT, PATCH, DELETE, HEAD e OPTIONS.
+- Códigos de status: 1xx, 2xx, 3xx, 4xx e 5xx.
+- Cabeçalhos de requisição e resposta.
+- Cookies, atributos Secure, HttpOnly e SameSite.
+- Cache, ETag, compressão e negociação de conteúdo.
+- Redirecionamentos e tratamento de erros.
+- HTTP/1.1, HTTP/2 e HTTP/3.
+- TLS, certificados e validação de identidade do servidor.
+- Proxy, reverse proxy, CDN e balanceamento de carga.
+
+#### 🔑 **Autenticação, autorização e gerenciamento de sessão**
+
+Esses três conceitos são frequentemente confundidos, mas não significam a mesma coisa.
+
+- **Autenticação:** confirma quem está tentando acessar o sistema.
+- **Autorização:** define o que aquela identidade pode fazer.
+- **Sessão:** mantém o estado de uma interação entre requisições.
+
+Estude cookies de sessão, tokens, JWT, OAuth 2.0, OpenID Connect, MFA, recuperação de senha, controle de acesso por função e por atributo, expiração de sessão e revogação de credenciais.
+
+#### 🧩 **Arquitetura moderna de aplicações**
+
+- Front-end e back-end.
+- APIs REST e GraphQL.
+- WebSockets e comunicação em tempo real.
+- Aplicações de página única (SPA).
+- Server-side rendering e client-side rendering.
+- Bancos relacionais e não relacionais.
+- Filas, workers e processamento assíncrono.
+- Microserviços e comunicação entre serviços.
+- Armazenamento de arquivos e objetos.
+- Integrações com serviços de terceiros.
+
+#### 🚨 **Vulnerabilidades Web que merecem estudo aprofundado**
+
+- **IDOR/BOLA:** falhas de autorização que permitem acessar objetos sem permissão.
+- **Broken Access Control:** controles de acesso implementados incorretamente.
+- **SQL Injection:** entradas que alteram indevidamente a estrutura de consultas SQL.
+- **XSS:** execução de scripts no contexto do navegador de outros usuários.
+- **CSRF:** indução de um navegador autenticado a realizar uma ação não desejada.
+- **SSRF:** abuso de requisições realizadas pelo servidor.
+- **XXE:** processamento inseguro de entidades em XML.
+- **Path Traversal:** acesso indevido a caminhos e arquivos.
+- **File Upload:** validação e armazenamento inadequados de arquivos.
+- **Open Redirect:** redirecionamentos inseguros.
+- **Race Conditions:** problemas causados por concorrência e ordem de execução.
+- **Business Logic Flaws:** falhas na lógica de negócio que não dependem necessariamente de um erro técnico tradicional.
+- **Insecure Deserialization:** processamento inseguro de dados serializados.
+- **Security Misconfiguration:** configurações que deixam recursos expostos.
+
+A lista é um ponto de partida, não uma receita para sair testando qualquer site. Utilize laboratórios ou aplicações para as quais você tenha autorização explícita.
+
+#### 📋 **Padrões e guias que você deve conhecer**
+
+- [OWASP Top 10:2025 em português](https://top10.owasp.org/2025/pt-BR/): riscos críticos de aplicações Web na edição 2025.
+- [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/): metodologia e casos de teste para aplicações Web.
+- [OWASP API Security Top 10](https://api-security.owasp.org/): riscos específicos de APIs.
+- [PortSwigger Web Security Academy](https://portswigger.net/web-security): conteúdo gratuito e laboratórios interativos.
+- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/): recomendações práticas de segurança.
+
+#### 🧪 **Prática recomendada**
+
+Monte uma aplicação local com autenticação, painel de usuário, upload de arquivos e API. Teste o comportamento com contas diferentes, registre o que cada perfil consegue acessar e tente identificar falhas de autorização sem utilizar dados de terceiros. Depois, corrija os problemas e repita os testes.
+
+Uma boa prática é aprender a reproduzir, explicar, corrigir e testar novamente uma vulnerabilidade. Encontrar uma falha é apenas uma parte do trabalho.
+
 #### 14 - 🛠️ Engenharia Reversa
 
 A engenharia reversa é uma prática antiga, que remonta à análise de ferramentas e dispositivos criados por civilizações passadas. ⚙️ Durante a Revolução Industrial, tornou-se mais sistemática, sendo usada para entender e reproduzir máquinas complexas. 
@@ -1244,6 +1678,54 @@ Ao identificar vulnerabilidades, hackers ajudam a tornar a tecnologia mais segur
 
 ---
 
+
+
+#### 🔬 **Como analisar um programa na prática**
+
+A engenharia reversa não começa necessariamente com um malware ou um software complexo. Uma forma melhor de aprender é compilar seus próprios programas e observar o que o compilador gera.
+
+- Identificar o formato do arquivo executável.
+- Examinar cabeçalhos e seções.
+- Identificar arquitetura e formato de instruções.
+- Analisar imports, exports e símbolos.
+- Comparar strings e referências.
+- Observar chamadas de bibliotecas e chamadas de sistema.
+- Acompanhar fluxo de controle.
+- Reconhecer funções, estruturas e chamadas.
+- Comparar código-fonte, assembly e pseudocódigo.
+- Identificar dados embutidos e recursos.
+
+#### 🧱 **Análise estática e dinâmica**
+
+**Análise estática:** examina o binário sem executá-lo. É utilizada para compreender a estrutura do arquivo, identificar símbolos, strings, bibliotecas e possíveis comportamentos.
+
+**Análise dinâmica:** observa o programa durante a execução, em um ambiente controlado. Permite acompanhar chamadas, alterações de memória, arquivos acessados, processos e comunicações.
+
+Uma análise bem feita combina as duas abordagens e registra as limitações de cada uma.
+
+#### 🛠️ **Ferramentas importantes**
+
+- **Ghidra:** disassembler, decompiler e ambiente de análise.
+- **IDA Free:** ferramenta de análise e desassemblagem.
+- **radare2 / Cutter:** ferramentas para análise de binários.
+- **GDB / LLDB:** depuração e inspeção da execução.
+- **Detect It Easy (DIE):** identificação de formatos e características de executáveis.
+- **PE-bear:** análise da estrutura de arquivos PE.
+- **readelf / objdump:** inspeção de arquivos ELF e código.
+- **strings:** identificação de sequências de texto.
+- **xxd / hexdump:** visualização de dados em hexadecimal.
+
+#### 🧪 **Exercícios para começar**
+
+1. Compile um programa simples em C e identifique suas seções.
+2. Compare o mesmo código compilado com e sem símbolos de depuração.
+3. Abra o executável no Ghidra e compare o pseudocódigo com o fonte original.
+4. Acompanhe uma função no GDB e observe registradores e memória.
+5. Analise um crackme criado para treinamento.
+6. Documente o que conseguiu identificar e o que permaneceu desconhecido.
+
+Sempre comece por programas próprios ou amostras educacionais. Binários desconhecidos e arquivos suspeitos devem ser examinados em laboratório isolado.
+
 ### 15 - 🤝 Contribuição e Compartilhamento do Conhecimento
 
 #### 🖥️ A Jornada da Comunidade Hacker: O Passado
@@ -1347,6 +1829,24 @@ Contribuir para a comunidade tecnológica vai além de resolver problemas indivi
 3. **Participe:** Comece pequeno, seja corrigindo bugs ou melhorando documentações.
 4. **Networking:** Entre em comunidades, participe de fóruns e eventos online.
 5. **Seja Persistente:** Todos começam em algum lugar, prática e consistência são chave.
+
+
+
+#### 🧰 **Git, revisão de código e fluxo de contribuição**
+
+Saber utilizar Git é essencial para trabalhar em projetos de software livre. Não basta baixar um repositório e alterar arquivos localmente; é importante entender como as mudanças são organizadas e revisadas.
+
+- Repositório, commit, branch, merge e tag.
+- `clone`, `pull`, `fetch`, `add`, `commit`, `push` e `rebase`.
+- Pull Requests e Merge Requests.
+- Issues, milestones e projetos.
+- Resolução de conflitos.
+- Revisão de código (Code Review).
+- Testes automatizados e integração contínua.
+- Histórico de alterações e mensagens de commit claras.
+- Licenças, atribuição e respeito às regras do projeto.
+
+Antes de abrir uma contribuição, leia o `README`, `CONTRIBUTING`, código de conduta, licença e templates do repositório. Uma contribuição pequena, bem explicada e testada vale muito mais do que um Pull Request enorme que ninguém consegue revisar.
 
 # Contribua para a Comunidade Open Source e Software Livre
 
@@ -1548,6 +2048,36 @@ Filmes como *WarGames* (1983) popularizaram a figura do hacker, enquanto eventos
 
 ---
 
+
+
+#### 🛡️ **OPSEC: Segurança Operacional**
+
+OPSEC (Operational Security) é o conjunto de práticas utilizadas para reduzir a exposição de informações e evitar que pequenos detalhes revelem algo que deveria permanecer protegido. Não é uma ferramenta, não é um modo secreto do navegador e muito menos uma garantia de anonimato.
+
+Antes de escolher ferramentas, pense no seu modelo de ameaça:
+
+1. **O que você quer proteger?** Identidade, localização, arquivos, comunicação ou atividade?
+2. **De quem?** Um anunciante, um criminoso comum, uma empresa, um administrador de rede ou um adversário com recursos elevados?
+3. **Quais informações podem ser expostas?** IP, metadados, horários, contas, padrões de navegação, identificadores do dispositivo e comportamento.
+4. **Qual é o impacto de uma exposição?** Perda de conta, fraude, perseguição, vazamento de dados ou associação entre identidades.
+
+#### 🧩 **Compartimentalização**
+
+- Evite misturar contas pessoais e contas de laboratório.
+- Separe ambientes de estudo e trabalho quando isso for necessário.
+- Não reutilize senhas.
+- Utilize gerenciadores de senhas e MFA.
+- Revise permissões de aplicativos e extensões.
+- Tenha cuidado ao abrir arquivos desconhecidos.
+- Não publique capturas de tela contendo tokens, endereços internos, nomes de usuário ou dados sensíveis.
+- Remova metadados de documentos quando a divulgação dessas informações representar um risco.
+
+#### ⚠️ **Limites do anonimato**
+
+VPN, Tor, proxies, navegadores privados e sistemas operacionais voltados à privacidade podem reduzir determinados tipos de exposição, mas nenhum deles garante anonimato absoluto. O comportamento do usuário, os dados de autenticação, os metadados, a configuração do dispositivo e falhas operacionais podem desfazer a proteção esperada.
+
+O objetivo do estudo deve ser compreender o que cada ferramenta protege, o que ela não protege e quais adversários estão dentro do seu modelo de ameaça. Não confunda privacidade com impunidade e não utilize essas técnicas para ocultar crimes, perseguir pessoas ou acessar sistemas sem autorização.
+
 ### 17 - 🐧  Distros Linux 'Hackers de Boutique' – Porque Só dar apt update não te faz um hacker
 
 Conforme o tempo foi passando, com o surgimento de filmes e o marketeiros de cursos de "hackers", distribuições voltadas para script kiddies começaram a se popularizar. Exemplos disso é o Kali Linux, que se tornou bastante popular entre leigos que se consideram hackers de filme, em grande parte devido à série Mr. Robot, além de outras como BlackArch Linux, Parrot, entre outras. Essas distribuições são frequentemente superestimadas por vendedores de cursos e youtubers que tentam falar sobre hacking. Como resultado, surgiram comunidades online compostas por pessoas que confundem atividades ilícitas (como o golpe 171) com black hat hacking, promovendo uma cultura de desinformação. Nessas comunidades, é comum ver pessoas se xingando, humilhando iniciantes e criando uma aura de superioridade intelectual para dar a impressão de que são grandes especialistas. Porém, fica o alerta: se você entrar em uma dessas comunidades e fizer uma pergunta técnica legítima, e em vez de obter ajuda, for desdenhado, pode ter certeza de que eles não sabem a resposta e são pessoas frustradas, em busca de reconhecimento.
@@ -1565,6 +2095,37 @@ Ferramentas prontas: Kali Linux oferece um conjunto de ferramentas pré-instalad
 Se você deseja aprender de verdade e se tornar um profissional de segurança cibernética ou hacker, é fundamental que você desenvolva suas próprias habilidades e entenda os fundamentos técnicos. Não dependa de distribuições que apenas "mastigam" o trabalho por você. A verdadeira aprendizagem vem da prática e do entendimento profundo dos conceitos.
 
 ---
+
+
+
+#### 🧠 **O que realmente importa em uma distribuição Linux**
+
+Uma distribuição é um conjunto de componentes organizados para fornecer um sistema utilizável. Ela não entrega conhecimento técnico junto com a ISO. Você pode usar Kali, Arch, Debian, Fedora ou outra distribuição e continuar sem entender o que está executando.
+
+Aprenda a:
+
+- Identificar a distribuição, versão, kernel e arquitetura.
+- Entender como funcionam repositórios, pacotes e dependências.
+- Compilar e instalar um programa a partir do código-fonte.
+- Ler páginas `man`, documentação e arquivos de configuração.
+- Criar usuários, grupos e permissões.
+- Configurar serviços, firewall e rede.
+- Investigar falhas de inicialização e problemas de dependências.
+- Montar ambientes de laboratório com snapshots.
+- Verificar assinaturas e integridade de pacotes.
+- Manter o sistema atualizado e remover serviços desnecessários.
+
+#### 🐧 **Distribuições e ambientes para conhecer**
+
+- **Arch Linux:** excelente para entender configuração, pacotes, serviços e documentação.
+- **Debian:** importante para conhecer estabilidade, empacotamento e administração.
+- **Fedora:** útil para estudar tecnologias recentes do ecossistema Linux e SELinux.
+- **Ubuntu Server:** bastante utilizado em ambientes de servidor e cloud.
+- **FreeBSD:** permite estudar outro sistema da família Unix-like.
+- **Kali Linux:** pode ser útil em laboratórios e atividades de segurança, desde que você entenda as ferramentas que está executando.
+- **Alpine Linux:** interessante para estudar ambientes minimalistas e containers.
+
+Não é necessário instalar todas essas distribuições. Escolha uma como sistema principal e utilize máquinas virtuais para conhecer as demais. O importante é aprender o funcionamento do sistema, não colecionar logos no terminal.
 
 ### 18 - 🛡️ Bug Bounty
 
@@ -1671,6 +2232,69 @@ https://www.mindmeister.com/pt/1577748697/bug-bounty-platforms
 
 ---
 
+
+
+#### 📜 **Antes de testar: leia o escopo e as regras**
+
+Ter uma vulnerabilidade em mãos não significa que você tem autorização para explorá-la. Em Bug Bounty, o programa define exatamente quais ativos podem ser testados, quais técnicas são permitidas e quais ações são proibidas.
+
+Antes de realizar qualquer teste, confira:
+
+- Domínios, subdomínios, IPs, aplicativos e ambientes autorizados.
+- Ativos explicitamente fora do escopo.
+- Tipos de vulnerabilidade aceitos e não aceitos.
+- Limites de requisições e regras contra automação agressiva.
+- Regras sobre engenharia social, negação de serviço e testes destrutivos.
+- Regras para dados pessoais e informações de outros usuários.
+- Processo oficial de envio de relatórios.
+- Política de divulgação coordenada.
+
+A autorização vale somente dentro das condições definidas pelo programa. Não presuma que um ativo pertence ao escopo só porque utiliza o nome ou a marca da empresa.
+
+#### 🔎 **Metodologia de pesquisa**
+
+1. **Entender o ativo:** identifique a tecnologia, as funcionalidades e os fluxos da aplicação.
+2. **Mapear a superfície:** catalogue páginas, endpoints, parâmetros, funcionalidades e perfis de acesso dentro do escopo.
+3. **Entender a lógica:** observe como autenticação, autorização, sessão e regras de negócio funcionam.
+4. **Formular hipóteses:** pense em cenários de falha e no impacto que poderiam causar.
+5. **Testar de maneira controlada:** utilize contas próprias e dados de teste, respeitando limites e regras do programa.
+6. **Validar o resultado:** elimine falsos positivos e registre evidências mínimas e suficientes.
+7. **Documentar:** explique causa, impacto, condições, reprodução segura e possíveis correções.
+8. **Acompanhar:** responda às dúvidas do triage e mantenha a comunicação profissional.
+
+#### 📝 **Como escrever um relatório de qualidade**
+
+Um bom relatório precisa permitir que outra pessoa entenda o problema e consiga reproduzi-lo em um ambiente controlado.
+
+Inclua:
+
+- **Título:** direto, indicando a falha e o componente afetado.
+- **Resumo:** explique o problema em poucas linhas.
+- **Ativo afetado:** informe o endereço ou recurso dentro do escopo.
+- **Pré-requisitos:** contas, permissões e condições necessárias.
+- **Passos para reprodução:** sequência clara, sem ações destrutivas.
+- **Evidências:** requisições, respostas, capturas e registros com dados sensíveis mascarados.
+- **Impacto:** descreva o que um usuário malicioso poderia efetivamente conseguir.
+- **Severidade:** justifique com base no impacto e nas condições de exploração.
+- **Correção sugerida:** apresente uma recomendação técnica coerente.
+
+#### ⚖️ **O que não fazer durante uma pesquisa**
+
+- Não acessar, copiar ou divulgar dados de usuários reais.
+- Não alterar, apagar ou indisponibilizar informações.
+- Não realizar testes de negação de serviço.
+- Não executar engenharia social sem autorização expressa no programa.
+- Não insistir em exploração após obter evidência suficiente.
+- Não divulgar a falha antes de seguir a política de divulgação do programa.
+- Não testar ativos fora do escopo.
+
+#### 📚 **Materiais adicionais**
+
+- [HackerOne Hacktivity e documentação](https://docs.hackerone.com/): informações sobre programas e processo de reporte.
+- [Bugcrowd University](https://www.bugcrowd.com/hackers/): material educacional para pesquisadores.
+- [PortSwigger Web Security Academy](https://portswigger.net/web-security): laboratórios para vulnerabilidades Web.
+- [OWASP WSTG](https://owasp.org/www-project-web-security-testing-guide/): guia para organizar testes de aplicações Web.
+
 ### 19 - 🌍 Hacktivismo 
 
 ### Hacktivismo: A Rebelião Digital 🌐💻
@@ -1742,6 +2366,33 @@ Para os **hackers éticos** de verdade, é fundamental lembrar o propósito inic
 
 
 ---
+
+
+
+#### ⚖️ **Ativismo digital, ética e limites legais**
+
+É importante separar manifestação política, denúncia pública, pesquisa de segurança e crime cibernético. Uma causa social não transforma automaticamente uma invasão em uma ação legítima. Doxxing, roubo de dados, indisponibilização de serviços e exposição de informações pessoais podem prejudicar pessoas que não têm relação com o conflito.
+
+Para estudar hacktivismo de maneira séria, conheça:
+
+- Liberdade de expressão e seus limites legais.
+- Privacidade e proteção de dados.
+- Liberdade de imprensa e proteção de fontes.
+- Censura, vigilância e direitos digitais.
+- Transparência pública e acesso à informação.
+- Divulgação responsável de vulnerabilidades.
+- Segurança de organizações civis e jornalistas.
+- Riscos de desinformação, falsificação de evidências e manipulação de narrativas.
+
+#### 🌐 **Organizações e referências sobre direitos digitais**
+
+- [EFF - Electronic Frontier Foundation](https://www.eff.org/): direitos digitais, privacidade e liberdade de expressão.
+- [Access Now](https://www.accessnow.org/): direitos humanos e segurança digital.
+- [Privacy International](https://privacyinternational.org/): privacidade e vigilância.
+- [Internet Freedom Festival](https://internetfreedomfestival.org/): comunidade e iniciativas de liberdade na Internet.
+- [Artigo 19](https://artigo19.org/): liberdade de expressão e acesso à informação.
+
+O conhecimento técnico pode ser usado para proteger pessoas, documentar abusos e fortalecer a transparência. Não é necessário invadir sistemas ou expor dados de terceiros para defender uma causa.
 
 ### 20 - 🧩 Malware
 
@@ -1872,6 +2523,64 @@ A engenharia reversa desempenha um papel crucial na compreensão do funcionament
 - [Mobile Malware Analysis (AppSec)](https://www.mobileappsecurity.net/)
 
 ---
+
+
+
+#### 🧪 **Laboratório seguro para análise de malware**
+
+Analisar um malware diretamente no computador pessoal é uma péssima ideia. Uma amostra pode criptografar arquivos, roubar credenciais, explorar serviços da rede e comprometer outros dispositivos. O ambiente de análise precisa ser planejado para reduzir o risco de escape e contaminação.
+
+- Utilize uma máquina virtual descartável e snapshots.
+- Mantenha o ambiente de análise separado do sistema principal.
+- Desative pastas compartilhadas, área de transferência compartilhada e integração desnecessária com o host.
+- Não utilize contas pessoais ou credenciais reais no laboratório.
+- Configure a rede de forma isolada ou controlada, sem acesso à rede doméstica ou corporativa.
+- Não execute amostras em máquinas de produção.
+- Registre hashes e informações de cada amostra.
+- Descarte ou restaure o ambiente após a análise.
+- Trate qualquer arquivo suspeito como potencialmente perigoso.
+
+#### 🔬 **Análise estática e dinâmica**
+
+**Análise estática:** examina o arquivo sem executá-lo. Pode envolver metadados, hashes, strings, cabeçalhos, imports, seções, recursos, entropia e estrutura do executável.
+
+**Análise dinâmica:** observa o comportamento durante a execução em ambiente isolado. Pode envolver processos criados, arquivos acessados, alterações no sistema, conexões de rede e eventos registrados.
+
+As duas abordagens se complementam. Uma análise estática pode levantar hipóteses, enquanto a análise dinâmica ajuda a observar o comportamento real da amostra. Nenhuma delas, isoladamente, garante uma conclusão completa.
+
+#### 🛡️ **Indicadores de Comprometimento (IoCs)**
+
+- Hashes de arquivos.
+- Endereços IP e domínios associados à atividade maliciosa.
+- URLs e caminhos observados.
+- Nomes de arquivos, serviços e processos.
+- Chaves e modificações de registro no Windows.
+- Eventos de autenticação e execução.
+- Padrões de tráfego e comportamento.
+
+Um IoC isolado nem sempre significa comprometimento. É necessário considerar contexto, origem, validade temporal e possibilidade de falsos positivos.
+
+#### 🧰 **Ferramentas e referências defensivas**
+
+- **YARA:** criação de regras para identificar padrões em arquivos e amostras.
+- **Ghidra:** engenharia reversa e análise de binários.
+- **Wireshark:** inspeção de tráfego.
+- **Sysmon:** geração de eventos detalhados no Windows.
+- **Process Monitor:** monitoramento de atividade de processos e arquivos.
+- **Volatility:** análise forense de memória.
+- **REMnux:** distribuição voltada à análise de malware.
+- **MITRE ATT&CK:** referência para descrever táticas e técnicas observadas.
+
+Links:
+- [YARA Documentation](https://yara.readthedocs.io/en/latest/)
+- [MITRE ATT&CK](https://attack.mitre.org/)
+- [REMnux](https://remnux.org/)
+- [Volatility Foundation](https://volatilityfoundation.org/)
+- [Sysmon Documentation](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon)
+
+#### ⚠️ **Uma observação importante**
+
+O objetivo de estudar malware neste roadmap é compreender ameaças, analisar amostras em condições seguras, desenvolver mecanismos de detecção e fortalecer sistemas. Qualquer experimento deve permanecer em laboratório controlado, sem atingir terceiros ou redes externas.
 
 ### 21 - 🎓 Certificações e plataformas de ensino
 
@@ -2052,6 +2761,737 @@ A HackOne é uma plataforma liderada pelo professor Lucas Palma, oferecendo curs
 Adquiri acesso à plataforma, incluindo todos os livros, e considero a HackOne impressionante. O empenho dos professores é incrível; eles realmente colocam tudo de si nas aulas para oferecer um ensino de alta qualidade.
 
 Recomendo a plataforma especialmente para iniciantes, pois ela proporciona uma base sólida e abrangente para quem está começando.
+
+---
+
+
+---
+
+
+
+#### 🎯 **Como escolher uma certificação sem cair em marketing**
+
+Não escolha uma certificação apenas porque alguém disse que ela é obrigatória ou porque aparece em uma imagem bonita no LinkedIn. Primeiro, veja o conteúdo programático, o formato do exame, a experiência exigida, o custo total e se aquilo realmente combina com a área que você deseja seguir.
+
+- **Fundamentos:** redes, sistemas operacionais, conceitos de segurança e administração.
+- **Pentest:** metodologia, exploração em laboratório, validação e relatório.
+- **Red Team:** ambientes corporativos, identidade, Active Directory, operações e simulação de adversários.
+- **Blue Team / SOC:** logs, SIEM, análise de eventos, detecção e resposta.
+- **Cloud Security:** IAM, redes em nuvem, armazenamento, logs e arquitetura segura.
+- **Forense e resposta a incidentes:** aquisição, preservação, análise e documentação de evidências.
+
+Antes de pagar, confira no site oficial se a certificação ainda está ativa, qual é a versão do exame, quais são os pré-requisitos, se existe renovação e quais são os custos adicionais. Certificações mudam, são aposentadas ou têm seus conteúdos atualizados.
+
+#### 🧾 **Certificado, certificação e experiência não são a mesma coisa**
+
+- **Certificado de curso:** normalmente comprova participação ou conclusão de um treinamento.
+- **Certificação profissional:** costuma exigir um exame ou avaliação padronizada e possui regras próprias de validade e renovação.
+- **Portfólio:** demonstra projetos, documentação, contribuições e capacidade de resolver problemas.
+- **Experiência prática:** demonstra atuação em situações reais ou em ambientes de treinamento que reproduzem problemas técnicos.
+
+Um não substitui automaticamente o outro. O melhor caminho é utilizar cursos e certificações para orientar os estudos, enquanto desenvolve projetos e experiência prática.
+
+### 22 - ⚖️ Ética, Legislação, Escopo e Responsabilidade
+
+Antes de começar a testar sistemas, existe uma coisa que precisa ficar muito clara: conhecimento técnico não é autorização. Saber explorar uma vulnerabilidade não dá o direito de testar qualquer endereço, rede, dispositivo ou conta que encontrar pela Internet.
+
+Esse é um dos pontos que diferencia um profissional de alguém que simplesmente executa comandos sem pensar nas consequências.
+
+#### 📜 **O que estudar na parte jurídica e ética**
+
+- Autorização expressa para testes de segurança.
+- Contratos, termos de serviço e regras de programas de Bug Bounty.
+- Definição de escopo e limites de atuação.
+- Proteção de dados pessoais e informações sensíveis.
+- Preservação de evidências e cadeia de custódia quando aplicável.
+- Divulgação responsável de vulnerabilidades.
+- Responsabilidade civil e criminal em atividades digitais.
+- Propriedade intelectual, licenças e uso de ferramentas.
+- Confidencialidade e tratamento de dados de clientes.
+- Ética profissional e conflito de interesses.
+
+#### 🇧🇷 **Legislação brasileira para conhecer**
+
+Não é necessário decorar leis como se fosse um concurso, mas é importante saber que existem normas que afetam diretamente o trabalho com tecnologia e segurança.
+
+- **Lei nº 12.737/2012:** ficou conhecida como Lei Carolina Dieckmann e trata de crimes informáticos, incluindo alterações no Código Penal.
+- **Lei nº 12.965/2014:** Marco Civil da Internet, com princípios, garantias, direitos e deveres para o uso da Internet no Brasil.
+- **Lei nº 13.709/2018:** Lei Geral de Proteção de Dados Pessoais (LGPD).
+- **Lei nº 14.155/2021:** alterou disposições sobre crimes praticados por meios eletrônicos.
+- **Código Penal:** especialmente os dispositivos relacionados a crimes informáticos, patrimônio, fraude, sigilo e outros temas que possam se relacionar à atividade.
+
+Referências:
+- [Planalto - Legislação Federal](https://www.planalto.gov.br/ccivil_03/)
+- [ANPD - Autoridade Nacional de Proteção de Dados](https://www.gov.br/anpd/pt-br)
+- [Marco Civil da Internet - Lei nº 12.965/2014](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm)
+- [LGPD - Lei nº 13.709/2018](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm)
+
+#### 🛡️ **Ética profissional na prática**
+
+- Nunca teste sistemas sem autorização.
+- Nunca ultrapasse o escopo autorizado.
+- Não utilize dados reais de terceiros para demonstrar uma falha quando dados de teste forem suficientes.
+- Não copie informações confidenciais para benefício próprio.
+- Não esconda ações realizadas durante uma avaliação.
+- Mantenha registros técnicos do trabalho.
+- Comunique riscos de maneira clara e responsável.
+- Informe limitações e incertezas do resultado.
+- Não prometa segurança absoluta.
+
+Um profissional sério precisa saber quando parar um teste. Encontrar evidência suficiente para demonstrar uma falha é diferente de explorar o sistema até causar um incidente.
+
+---
+
+### 23 - 🧭 Metodologia de Pentest e Avaliação de Segurança
+
+Aprender ferramentas é importante, mas saber organizar uma avaliação é ainda mais importante. Um teste de invasão profissional não começa abrindo o Nmap ou o Burp Suite. Começa entendendo o objetivo, a autorização, o ambiente e os limites do trabalho.
+
+#### 📋 **1. Planejamento e definição de escopo**
+
+- Identificar o responsável pelo ambiente.
+- Obter autorização formal.
+- Definir ativos, aplicações, redes e ambientes permitidos.
+- Identificar ativos que não podem ser testados.
+- Definir período de execução e contatos de emergência.
+- Estabelecer limites de requisições e técnicas proibidas.
+- Definir como evidências e dados serão armazenados.
+- Definir o formato e o destinatário do relatório.
+
+#### 🔎 **2. Reconhecimento**
+
+O reconhecimento busca compreender o ambiente e identificar informações relevantes para a avaliação.
+
+- Identificação de tecnologias e serviços.
+- Inventário de ativos autorizados.
+- Mapeamento de aplicações e funcionalidades.
+- Identificação de versões e componentes.
+- Análise de documentação disponível.
+- Identificação de relações entre sistemas.
+- Levantamento de possíveis superfícies de ataque.
+
+Reconhecimento não significa sair coletando dados pessoais de funcionários ou tentando acessar qualquer serviço encontrado. O escopo e as regras continuam valendo.
+
+#### 🧪 **3. Enumeração e análise**
+
+Depois de identificar os componentes, é necessário entender o que está exposto e como cada recurso funciona.
+
+- Serviços e portas disponíveis.
+- Protocolos e configurações.
+- Mecanismos de autenticação.
+- Perfis, permissões e controles de acesso.
+- Endpoints, parâmetros e funcionalidades.
+- Versões de componentes e dependências.
+- Configurações de rede e aplicação.
+- Fluxos de dados e integrações externas.
+
+#### 🧩 **4. Validação de vulnerabilidades**
+
+Uma ferramenta pode indicar uma possível vulnerabilidade, mas o resultado precisa ser analisado. Scanner não é sinônimo de confirmação.
+
+- Reproduzir o achado em condições controladas.
+- Verificar se a falha é realmente explorável.
+- Identificar pré-requisitos.
+- Determinar quais usuários ou ativos são afetados.
+- Avaliar impacto técnico e impacto no negócio.
+- Descartar falsos positivos.
+- Interromper a exploração quando já existir evidência suficiente.
+
+#### 📝 **5. Relatório e comunicação**
+
+O relatório precisa traduzir o achado técnico para quem vai corrigir e para quem precisa tomar decisões.
+
+- Resumo executivo.
+- Escopo e metodologia.
+- Limitações da avaliação.
+- Vulnerabilidades encontradas.
+- Evidências e passos de reprodução.
+- Impacto e severidade justificada.
+- Recomendações de correção.
+- Priorização dos riscos.
+- Anexos e referências técnicas.
+
+#### 🔁 **6. Reteste**
+
+Depois que a equipe corrigir os problemas, é necessário validar se a correção realmente resolveu a falha e se não introduziu outros problemas.
+
+- Repetir o cenário original.
+- Verificar se a vulnerabilidade deixou de ocorrer.
+- Validar controles relacionados.
+- Registrar o resultado do reteste.
+- Atualizar o relatório.
+
+#### 📚 **Metodologias e referências**
+
+- [PTES - Penetration Testing Execution Standard](http://www.pentest-standard.org/): referência para organizar fases de um teste de invasão.
+- [NIST SP 800-115](https://csrc.nist.gov/pubs/sp/800/115/final): guia técnico de testes e avaliações de segurança.
+- [OWASP WSTG](https://owasp.org/www-project-web-security-testing-guide/): guia de testes de aplicações Web.
+- [MITRE ATT&CK](https://attack.mitre.org/): base de conhecimento de táticas e técnicas observadas em operações adversárias.
+
+---
+
+### 24 - 🧱 Segurança de Aplicações, APIs e Desenvolvimento Seguro
+
+Se você quer entender como aplicações são exploradas, também precisa aprender como elas são construídas. Conhecer o funcionamento interno de uma aplicação ajuda a identificar erros de arquitetura, validação, autenticação, autorização e tratamento de dados.
+
+#### 🏗️ **Fundamentos de desenvolvimento seguro**
+
+- Secure SDLC: segurança durante todo o ciclo de desenvolvimento.
+- Modelagem de ameaças antes de implementar funcionalidades.
+- Validação de entradas e codificação de saídas.
+- Tratamento seguro de erros.
+- Gerenciamento de segredos e credenciais.
+- Controle de acesso no servidor.
+- Proteção de sessões e tokens.
+- Atualização de dependências.
+- Revisão de código.
+- Testes unitários, integração e segurança.
+- Registro de eventos sem expor senhas, tokens ou dados pessoais.
+
+#### 🔌 **Segurança de APIs**
+
+APIs permitem que aplicações conversem entre si, mas também criam superfícies de ataque que precisam ser protegidas.
+
+Estude:
+
+- REST, GraphQL, SOAP e WebSockets.
+- Métodos, rotas, parâmetros e cabeçalhos.
+- Autenticação por sessão, token e OAuth.
+- Autorização por objeto e por função.
+- Rate limiting e controle de consumo.
+- Paginação e filtros.
+- Validação de esquemas.
+- CORS e políticas de origem.
+- Versionamento e inventário de endpoints.
+- Logs, monitoramento e tratamento de erros.
+- Segurança de integrações com terceiros.
+
+#### 🚨 **Riscos comuns em APIs**
+
+- Acesso a objetos sem verificar autorização.
+- Exposição de propriedades sensíveis.
+- Falhas de autenticação.
+- Ausência de limitação de requisições.
+- Acesso indevido a funções administrativas.
+- Abuso de fluxos de negócio.
+- SSRF.
+- Configuração inadequada.
+- Inventário desatualizado de endpoints.
+- Consumo inseguro de APIs de terceiros.
+
+#### 📚 **Referências**
+
+- [OWASP API Security Top 10](https://api-security.owasp.org/)
+- [OWASP Top 10:2025](https://top10.owasp.org/2025/pt-BR/)
+- [OWASP ASVS](https://owasp.org/www-project-application-security-verification-standard/)
+- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)
+- [OWASP Developer Guide](https://devguide.owasp.org/)
+
+---
+
+### 25 - 🪟 Active Directory e Segurança Windows Corporativa
+
+Se você pretende trabalhar com pentest, Red Team, defesa corporativa ou administração de redes, precisa entender ambientes Windows corporativos. Muitas empresas utilizam domínios, diretórios, políticas centralizadas e serviços de autenticação para administrar milhares de dispositivos e usuários.
+
+#### 🏢 **O que é Active Directory?**
+
+O Active Directory Domain Services (AD DS) é um serviço de diretório da Microsoft utilizado para organizar objetos de uma rede, como usuários, computadores, grupos e outros recursos. Ele permite autenticação, gerenciamento centralizado e aplicação de políticas.
+
+#### 🧩 **Conceitos que você precisa estudar**
+
+- Domínio, floresta e árvore.
+- Domain Controller.
+- Organizational Units (OUs).
+- Usuários, grupos e computadores.
+- Group Policy Objects (GPOs).
+- DNS em ambientes de domínio.
+- LDAP e consultas ao diretório.
+- Kerberos e NTLM.
+- Relações de confiança.
+- Permissões e delegação.
+- SMB e compartilhamentos.
+- PowerShell para administração.
+- Logs de autenticação e auditoria.
+- Microsoft Entra ID e identidade híbrida.
+
+#### 🔐 **Autenticação e autorização**
+
+Estude a diferença entre autenticação, autorização e delegação. Entenda como tickets Kerberos são emitidos e validados, como as credenciais são protegidas e como permissões incorretas podem ampliar o acesso de uma conta.
+
+#### 🛡️ **Segurança e defesa**
+
+- Princípio do menor privilégio.
+- Separação entre contas administrativas e contas comuns.
+- MFA onde aplicável.
+- Proteção de contas privilegiadas.
+- Auditoria de eventos.
+- Segmentação de rede.
+- Controle de aplicações e serviços.
+- Gestão de patches.
+- Hardening de estações e servidores.
+- Backup e recuperação de controladores de domínio.
+
+#### 🧪 **Prática em laboratório**
+
+Monte um domínio isolado com máquinas virtuais Windows Server e Windows Client. Crie usuários, grupos, OUs, políticas e compartilhamentos. Depois, teste permissões com contas diferentes e analise os eventos gerados pelas atividades.
+
+Não utilize domínios corporativos ou equipamentos de terceiros como laboratório.
+
+#### 📚 **Materiais adicionais**
+
+- [Active Directory Domain Services - Microsoft Learn](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/active-directory-domain-services)
+- [Windows Server Documentation](https://learn.microsoft.com/en-us/windows-server/)
+- [Microsoft Security](https://www.microsoft.com/en-us/security)
+- [Windows Security Baselines](https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/security-baselines)
+
+---
+
+### 26 - ☁️ Cloud, Virtualização, Containers e DevSecOps
+
+A infraestrutura deixou de estar limitada a servidores físicos dentro de uma empresa. Hoje, aplicações podem utilizar serviços em nuvem, containers, máquinas virtuais, funções serverless e infraestrutura definida por código. Isso também significa novas configurações, permissões e dependências para proteger.
+
+#### ☁️ **Computação em nuvem**
+
+Estude os principais modelos:
+
+- **IaaS:** infraestrutura como serviço.
+- **PaaS:** plataforma como serviço.
+- **SaaS:** software como serviço.
+- **FaaS/Serverless:** execução de funções gerenciadas pelo provedor.
+- **Cloud pública, privada e híbrida.**
+
+Conheça os principais provedores:
+
+- [Amazon Web Services (AWS)](https://aws.amazon.com/)
+- [Microsoft Azure](https://azure.microsoft.com/)
+- [Google Cloud](https://cloud.google.com/)
+
+#### 🔐 **Segurança em Cloud**
+
+- IAM e gerenciamento de identidades.
+- Permissões e políticas.
+- Chaves, tokens e segredos.
+- Buckets e armazenamento de objetos.
+- Redes virtuais, sub-redes e firewalls.
+- Security Groups e regras de acesso.
+- Logs e auditoria.
+- Criptografia em repouso e em trânsito.
+- Backups e recuperação.
+- Configurações públicas acidentais.
+- Responsabilidade compartilhada entre cliente e provedor.
+
+#### 📦 **Containers e Docker**
+
+Estude imagens, containers, volumes, redes, registries, Dockerfile, permissões e isolamento. Entenda que container não é uma máquina virtual completa e que configurações inadequadas podem comprometer o host.
+
+- [Docker Documentation](https://docs.docker.com/)
+- [Docker Security](https://docs.docker.com/engine/security/)
+
+#### ☸️ **Kubernetes**
+
+Depois de entender containers, estude:
+
+- Pods, Deployments e Services.
+- Namespaces.
+- ConfigMaps e Secrets.
+- RBAC.
+- Network Policies.
+- Service Accounts.
+- Ingress.
+- Controle de imagens.
+- Logs e auditoria.
+- Isolamento e atualização de componentes.
+
+- [Kubernetes Documentation](https://kubernetes.io/docs/)
+- [Kubernetes Security](https://kubernetes.io/docs/concepts/security/)
+
+#### 🔧 **DevSecOps e cadeia de suprimentos**
+
+DevSecOps integra práticas de segurança ao desenvolvimento e à operação de software. A ideia não é deixar a segurança somente para o final do projeto.
+
+Estude:
+
+- CI/CD e pipelines.
+- SAST: análise estática de código.
+- DAST: análise dinâmica de aplicações.
+- SCA: análise de dependências.
+- Secret scanning.
+- Container scanning.
+- SBOM (Software Bill of Materials).
+- Assinatura e proveniência de artefatos.
+- Proteção de repositórios e runners.
+- Infraestrutura como código (IaC).
+- Revisão de permissões em pipelines.
+
+#### 📚 **Materiais adicionais**
+
+- [AWS Well-Architected - Security Pillar](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html)
+- [NIST Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework)
+- [CIS Critical Security Controls v8.1](https://www.cisecurity.org/controls/v8-1)
+- [OWASP Top 10 CI/CD Security Risks](https://owasp.org/www-project-top-10-ci-cd-security-risks/)
+
+---
+
+### 27 - 🛡️ Blue Team, SOC, Threat Hunting e Resposta a Incidentes
+
+Hacking não é somente encontrar falhas e demonstrar como um sistema pode ser comprometido. Também é necessário entender como uma organização detecta, investiga, contém e recupera um incidente.
+
+O Blue Team trabalha justamente nessa parte defensiva. É uma área que exige conhecimento de sistemas, redes, logs, análise de comportamento e resposta a incidentes.
+
+#### 🖥️ **O que é um SOC?**
+
+O Security Operations Center (SOC) é uma estrutura responsável por monitorar eventos de segurança, investigar alertas e coordenar respostas a possíveis incidentes.
+
+Estude:
+
+- Monitoramento de endpoints e servidores.
+- Correlação de eventos.
+- SIEM e gerenciamento de logs.
+- EDR e XDR.
+- Gestão de alertas.
+- Triagem e priorização.
+- Indicadores de comprometimento.
+- Detecção de anomalias.
+- Threat Intelligence.
+- Threat Hunting.
+- Resposta a incidentes.
+
+#### 📊 **SIEM e análise de logs**
+
+Um SIEM reúne e correlaciona eventos de diferentes sistemas para ajudar a identificar comportamentos suspeitos.
+
+Conheça:
+
+- [Wazuh](https://wazuh.com/): plataforma open source de segurança e monitoramento.
+- [Elastic Security](https://www.elastic.co/security): ferramentas de análise e detecção.
+- [Splunk](https://www.splunk.com/): plataforma de análise de dados e eventos.
+- [Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/): SIEM e SOAR em nuvem.
+
+#### 🔍 **Threat Hunting**
+
+Threat Hunting é a busca proativa por comportamentos suspeitos que podem não ter gerado um alerta tradicional.
+
+Estude:
+
+- Hipóteses de investigação.
+- Análise de processos e conexões.
+- Eventos de autenticação.
+- Execução de comandos.
+- Alterações em arquivos e configurações.
+- Comportamentos incomuns de usuários.
+- Relação entre eventos de diferentes fontes.
+- Validação de hipóteses e documentação.
+
+#### 🚨 **Resposta a incidentes**
+
+- Preparação.
+- Identificação.
+- Análise.
+- Contenção.
+- Erradicação.
+- Recuperação.
+- Lições aprendidas.
+
+É importante documentar a linha do tempo, preservar evidências, registrar decisões e evitar alterações desnecessárias nos sistemas investigados.
+
+#### 📚 **Referências**
+
+- [NIST Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework)
+- [CIS Critical Security Controls](https://www.cisecurity.org/controls)
+- [MITRE ATT&CK](https://attack.mitre.org/)
+- [CyberDefenders](https://cyberdefenders.org/blue-team-labs/): laboratórios de Blue Team, SOC, DFIR e Threat Hunting.
+- [Sigma Rules](https://github.com/SigmaHQ/sigma): regras de detecção de eventos.
+- [YARA Documentation](https://yara.readthedocs.io/en/latest/): identificação de padrões em arquivos.
+
+---
+
+### 28 - 🌐 OSINT e Inteligência de Ameaças
+
+OSINT (Open Source Intelligence) é a coleta e análise de informações obtidas em fontes abertas. Não se resume a pesquisar um nome em um buscador ou utilizar ferramentas automatizadas. O trabalho exige metodologia, validação, contexto e cuidado com dados pessoais.
+
+#### 🔎 **O que estudar em OSINT**
+
+- Pesquisa avançada em mecanismos de busca.
+- Análise de domínios e subdomínios.
+- DNS e informações públicas de infraestrutura.
+- Dados de registro de domínios.
+- Certificados digitais públicos.
+- Repositórios e histórico de código.
+- Metadados de arquivos.
+- Análise de imagens e vídeos.
+- Geolocalização de conteúdo público.
+- Arquivamento de páginas.
+- Verificação de fontes e confiabilidade.
+- Correlação de informações.
+- Elaboração de relatórios e linhas do tempo.
+
+#### 🧠 **Inteligência de ameaças (Threat Intelligence)**
+
+Threat Intelligence é o processo de transformar dados sobre ameaças em informações úteis para tomada de decisão.
+
+Estude:
+
+- Estratégico: tendências, riscos e impacto para a organização.
+- Tático: táticas, técnicas e procedimentos (TTPs).
+- Operacional: campanhas, infraestrutura e padrões de atividade.
+- Técnico: hashes, domínios, endereços IP e outros indicadores.
+
+#### 🛠️ **Ferramentas e fontes públicas**
+
+- [OSINT Framework](https://osintframework.com/): índice de fontes e ferramentas OSINT.
+- [SpiderFoot](https://www.spiderfoot.net/): automação de coleta de informações públicas.
+- [theHarvester](https://github.com/laramies/theHarvester): coleta de informações públicas sobre organizações e domínios.
+- [crt.sh](https://crt.sh/): pesquisa em registros públicos de certificados.
+- [ICANN Lookup](https://lookup.icann.org/): consulta de informações de domínios.
+- [VirusTotal](https://www.virustotal.com/): análise e reputação de arquivos, domínios e URLs.
+- [URLhaus](https://urlhaus.abuse.ch/): informações sobre URLs associadas a malware.
+
+#### ⚖️ **Responsabilidade e limites**
+
+OSINT não autoriza invasão de contas, engenharia social, perseguição, exposição de dados pessoais ou coleta abusiva de informações. Trabalhe com fontes legitimamente públicas, finalidade legítima e respeito à legislação de proteção de dados.
+
+---
+
+### 29 - 🧾 Forense Digital e DFIR
+
+A forense digital busca identificar, preservar, adquirir, examinar, analisar e apresentar evidências digitais de maneira tecnicamente confiável. É uma área que exige muito mais do que abrir um programa e tirar uma captura de tela.
+
+#### 🔬 **Áreas da forense digital**
+
+- Forense computacional.
+- Forense de dispositivos móveis.
+- Forense de memória RAM.
+- Forense de redes.
+- Forense de sistemas de arquivos.
+- Análise de logs.
+- Análise de malware.
+- Forense em nuvem.
+- Recuperação e análise de artefatos digitais.
+
+#### 🔐 **Princípios fundamentais**
+
+- Preservação da evidência.
+- Integridade dos arquivos.
+- Documentação de cada procedimento.
+- Reprodutibilidade da análise.
+- Controle de acesso ao material.
+- Cadeia de custódia, quando aplicável.
+- Separação entre fato observado, hipótese e conclusão.
+- Registro das ferramentas, versões e parâmetros utilizados.
+
+#### 🧰 **Ferramentas para conhecer**
+
+- **Autopsy / The Sleuth Kit:** análise de sistemas de arquivos e evidências digitais.
+- **FTK Imager:** aquisição e visualização de imagens forenses.
+- **Volatility:** análise de memória.
+- **Wireshark:** análise de capturas de rede.
+- **Plaso / log2timeline:** organização de artefatos em linhas do tempo.
+- **ExifTool:** leitura e análise de metadados.
+- **ALEAPP:** análise de artefatos de dispositivos Android.
+- **iLEAPP:** análise de artefatos de dispositivos iOS.
+- **KAPE:** coleta e processamento de artefatos forenses no Windows.
+
+#### 📚 **Materiais adicionais**
+
+- [NIST Computer Forensics Tool Testing (CFTT)](https://www.nist.gov/itl/ssd/software-quality-group/computer-forensics-tool-testing-program-cftt)
+- [Autopsy](https://www.autopsy.com/)
+- [The Sleuth Kit](https://www.sleuthkit.org/)
+- [Volatility Foundation](https://volatilityfoundation.org/)
+- [ExifTool](https://exiftool.org/)
+
+---
+
+### 30 - 📱 Segurança Mobile e Android
+
+Aplicativos móveis possuem particularidades que não podem ser reduzidas a um pentest Web tradicional. Eles interagem com o sistema operacional, armazenamento local, sensores, permissões, componentes internos e serviços remotos.
+
+#### 🤖 **Android**
+
+Estude:
+
+- Arquitetura do Android.
+- APK, AAB e estrutura de aplicativos.
+- AndroidManifest.xml.
+- Activities, Services, Broadcast Receivers e Content Providers.
+- Permissões e sandbox.
+- Armazenamento local.
+- SharedPreferences, SQLite e arquivos.
+- Android Keystore.
+- Comunicação por HTTP/HTTPS.
+- WebView e componentes JavaScript.
+- IPC e intents.
+- Assinatura de aplicativos.
+- Depuração e análise de logs.
+- Engenharia reversa de APKs.
+
+#### 🍎 **iOS**
+
+Estude:
+
+- Arquitetura e sandbox do iOS.
+- Estrutura de aplicativos e pacotes.
+- Keychain.
+- Provisioning Profiles e assinatura.
+- Armazenamento local.
+- Comunicação de rede.
+- Permissões e privacidade.
+- Análise estática e dinâmica.
+- Segurança de bibliotecas e SDKs.
+
+#### 🛠️ **Ferramentas para conhecer**
+
+- ADB (Android Debug Bridge).
+- Android Studio.
+- JADX.
+- APKTool.
+- Frida.
+- MobSF.
+- Objection.
+- Burp Suite ou outro proxy de interceptação.
+- Ghidra para análise de componentes nativos.
+
+#### 📚 **Referências**
+
+- [OWASP Mobile Application Security](https://mas.owasp.org/): projeto com padrões, fraquezas e guia de testes para aplicações móveis.
+- [OWASP MASVS](https://mas.owasp.org/MASVS/): padrão de verificação de segurança mobile.
+- [Android Security](https://source.android.com/docs/security): documentação oficial de segurança do Android.
+- [Android Developers](https://developer.android.com/): documentação oficial de desenvolvimento Android.
+
+Pratique em aplicativos de laboratório, projetos próprios e dispositivos sob seu controle. Não tente acessar dados de outros usuários ou modificar aplicativos de terceiros sem autorização.
+
+---
+
+### 31 - 🧪 Laboratório, CTFs e Construção de Portfólio
+
+Não adianta consumir conteúdo durante meses e nunca colocar o conhecimento à prova. Ao mesmo tempo, não é necessário procurar sistemas reais para praticar. Existem laboratórios projetados para isso.
+
+#### 🧱 **Monte seu próprio laboratório**
+
+Com uma máquina virtual, você consegue criar uma rede isolada para estudar Linux, Windows, serviços, aplicações Web, redes e análise de tráfego.
+
+Uma estrutura inicial pode conter:
+
+- Uma máquina Linux para administração e análise.
+- Uma máquina Windows Client.
+- Uma máquina Windows Server para estudar domínio e políticas.
+- Uma aplicação Web vulnerável criada para treinamento.
+- Uma máquina com serviços de rede para testes.
+- Uma rede virtual isolada, sem exposição desnecessária à Internet.
+- Snapshots para restaurar o ambiente após os experimentos.
+
+A configuração depende do hardware disponível. Comece pequeno e aumente a complexidade aos poucos. Não precisa montar um datacenter no quarto.
+
+#### 🎯 **Plataformas para prática**
+
+- [OverTheWire](https://overthewire.org/wargames/): desafios de Linux, criptografia e outros fundamentos.
+- [pwn.college](https://pwn.college/): laboratórios de Linux, programação, segurança de sistemas e exploração de software.
+- [PortSwigger Web Security Academy](https://portswigger.net/web-security): segurança Web com laboratórios gratuitos.
+- [TryHackMe](https://tryhackme.com/): trilhas guiadas e laboratórios.
+- [Hack The Box](https://www.hackthebox.com/): laboratórios de infraestrutura e segurança.
+- [Root-Me](https://www.root-me.org/): desafios em diversas áreas.
+- [picoCTF](https://picoctf.org/): desafios educacionais de segurança.
+- [CyberDefenders](https://cyberdefenders.org/blue-team-labs/): desafios de análise defensiva e investigação.
+
+#### 📝 **Como documentar o que você aprende**
+
+Para cada laboratório, escreva:
+
+1. Qual era o objetivo.
+2. Quais conhecimentos eram necessários.
+3. Como o ambiente estava configurado.
+4. Quais hipóteses você levantou.
+5. Quais ferramentas utilizou e por quê.
+6. O que funcionou e o que não funcionou.
+7. Qual era a causa técnica do problema.
+8. Como corrigir ou detectar a falha.
+9. O que você aprendeu.
+10. Quais referências consultou.
+
+Não publique flags, soluções ou informações que violem as regras da plataforma. Quando existir uma política contra spoilers, respeite-a.
+
+#### 💻 **O que colocar no GitHub**
+
+- Ferramentas próprias e bem documentadas.
+- Scripts de automação.
+- Analisadores de logs.
+- Projetos em C e Python.
+- Laboratórios criados por você.
+- Write-ups autorizados.
+- Documentação técnica.
+- Regras de detecção.
+- Projetos de hardening.
+- Relatórios fictícios com dados inventados.
+- Testes automatizados e exemplos reproduzíveis.
+
+Um repositório bom precisa explicar o que faz, como funciona, como executar, quais são as dependências, quais são as limitações e em que ambiente foi testado. Não adianta colocar 40 ferramentas copiadas e chamar isso de portfólio.
+
+---
+
+### 32 - 🧭 Metodologia de Estudo e Evolução Técnica
+
+Este roadmap é extenso de propósito, mas isso não significa que você precise estudar dez assuntos ao mesmo tempo. A ideia é construir uma base que permita entender o que está acontecendo, em vez de apenas decorar comandos.
+
+#### 📚 **Como estudar cada assunto**
+
+1. Leia a documentação e entenda os conceitos.
+2. Estude a arquitetura e o funcionamento interno.
+3. Faça anotações com suas próprias palavras.
+4. Reproduza exemplos simples.
+5. Modifique os exemplos e observe o resultado.
+6. Leia o código-fonte quando estiver disponível.
+7. Utilize depuradores e ferramentas de diagnóstico.
+8. Resolva exercícios e desafios.
+9. Crie um projeto pequeno.
+10. Documente o que aprendeu e revise depois.
+
+#### 🧠 **Ordem sugerida de construção da base**
+
+A ordem abaixo é uma sugestão de dependências, não uma obrigação de ignorar assuntos que despertam sua curiosidade.
+
+1. História da computação, ética e cultura hacker.
+2. Lógica de programação e fundamentos de algoritmos.
+3. Sistemas operacionais e terminal.
+4. Redes de computadores e protocolos.
+5. Programação em C e Python.
+6. Estruturas de dados e matemática discreta.
+7. Arquitetura de computadores e Assembly.
+8. Administração Linux e Windows.
+9. Criptografia e fundamentos de segurança.
+10. Web, APIs e bancos de dados.
+11. Engenharia reversa e análise de binários.
+12. Segurança de aplicações e infraestrutura.
+13. Metodologia de pentest e Bug Bounty.
+14. Segurança defensiva, logs e resposta a incidentes.
+15. Cloud, containers e ambientes corporativos.
+16. Especialização e projetos avançados.
+
+#### ⚙️ **Como saber se você realmente aprendeu?**
+
+Você deve conseguir explicar um conceito sem depender de uma ferramenta, reproduzir um exemplo, identificar limitações, interpretar erros e demonstrar como corrigir um problema.
+
+Antes de avançar, tente responder:
+
+- Consigo explicar o funcionamento sem ler uma cola?
+- Consigo criar um exemplo simples do zero?
+- Consigo identificar quando uma ferramenta está apresentando um falso positivo?
+- Consigo ler a documentação oficial?
+- Consigo entender o código-fonte ou pelo menos localizar a parte relevante?
+- Consigo explicar o impacto de uma falha?
+- Consigo documentar o procedimento para outra pessoa reproduzir?
+- Sei quais são os limites legais e técnicos do que estou fazendo?
+
+#### 🚫 **O que evitar durante a jornada**
+
+- Pular fundamentos porque parecem difíceis.
+- Colecionar ferramentas sem saber utilizá-las.
+- Acreditar que uma certificação substitui experiência.
+- Copiar write-ups sem entender o raciocínio.
+- Confundir quantidade de cursos com conhecimento.
+- Entrar em discussões apenas para provar superioridade.
+- Utilizar sistemas reais como laboratório sem autorização.
+- Acreditar em promessas de enriquecimento rápido com Bug Bounty.
+- Deixar de estudar documentação porque um vídeo parece mais fácil.
+
+O objetivo final é desenvolver independência técnica. Você não precisa saber tudo de cabeça, mas precisa saber como investigar, aprender, testar, validar e explicar aquilo que está fazendo.
 
 ---
 
